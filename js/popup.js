@@ -3,4 +3,3 @@ function salaisuus() {
     pöllömuhku");
 }
 
-salaisuus();
