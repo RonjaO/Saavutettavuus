@@ -66,7 +66,7 @@
         <h2>Linkkejä</h2>
 
         <ul>
-            <li><a href="https://www.youtube.com/watch?v=VkGx-DoTc_g">Codebusters &ilkeä professori Croco</a></li>
+            <li><a href="https://www.youtube.com/watch?v=VkGx-DoTc_g">Codebusters &amp; ilkeä professori Croco</a></li>
             <li><a href="http://www.w3.org/TR/WCAG20/">WCAG 2.0</a></li>
         </ul>
 
