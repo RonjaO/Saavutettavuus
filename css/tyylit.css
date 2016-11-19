@@ -1,3 +1,10 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
 .skiplink {
   position: absolute;
   left: -10000;
