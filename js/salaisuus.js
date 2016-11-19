@@ -2,6 +2,7 @@ alert(1);
 
 $(document).ready(function() {
     alert(2);
+    alert($("#painike").length);
     $("#painike").click(function(event) {
         alert("fooo");
     });
