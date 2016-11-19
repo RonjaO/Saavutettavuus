@@ -9,9 +9,9 @@
     <body>
         <h1>Verkkopalveluiden saavutettavuus</h1>
         
-        <div class="hidden">
-            <p>Löysit piilotettua sisältöä!</p>
-            <input type="button" value="Paina minua" onclick="salaisuus();" />
+        <div id="salaisuus" style="position:absolute; left:-10000px; top:auto;width:1px; height:1px; overflow:hidden">
+            <p>Löysit piilotettua sisältöä! Tämä sisältö näkyy vain ruudunlukuohjelmille. Kerro palautuksessa sana "pöllömuhku".</p>
+            <input type="button" value="Laita näkyväksi" onclick="salaisuus();" />
         </div>
         
         <p>Tervetuloa Saavutettavat verkkopalvelut -pop-up-kurssin sivulle! Täältä löydät kurssin aikataulun, tehtävät sekä <a href="#linkit">aiheeseen liittyviä linkkejä</a>. Tehtävät tulee saataville luentopäivinä ja linkkilista päivittyy sitä mukaa kun vastaan tulee kiinnostavaa materiaalia saavutettavuudesta.</p>
@@ -66,7 +66,7 @@
             </ul>
         </div>        
 
-        <script src="js/popup.js"> </script>
+        <script src="js/salaisuus.js"> </script>
         
     </body>
 </html>
