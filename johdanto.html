@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Verkkopalveluiden saavutettavuus -pop up -kurssi</title>
+        <link rel="stylesheet" href="css/tyylit.css" type="text/css">
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    </head>
+    
+    <body>
+        <a href="#main" class="skiplink">Hyppää pääsisältöön</a>
+        <nav>
+            <ul>
+                <li><a href="index.html">Etusivu</a></li>
+                <li>Luento 1</a></li>
+                <li>Luento 2</li>
+                <li>Luento 3</li>
+                <li>Luento 4</li>
+                <li>Luento 5</li>
+                <li>Luento 6</li>
+            </ul>
+        </nav>
+
+        <script src="js/salaisuus.js"> </script>
+
+
+        <h1 id="main">Luento 1: Johdanto</h1>
+
+        <div id="salaisuus" style="opacity: 0; position: absolute; length: 1px; width: 1px;">
+            <p>Löysit piilotettua sisältöä! Tämä sisältö näkyy vain ruudunlukuohjelmille. Kerro palautuksessa sana "pöllömuhku".</p>
+            <button id="painike" onclick>Laita näkyväksi</button> 
+        </div>
+
+        <h2>Tehtävät</h2>
+
+        <p>Vastaa tehtäviin sähköpostilla osoitteeseen ronja.oja@helsinki.fi.</p>
+
+        <h3>1. Kokeile ruudunlukuohjelman käyttöä</h3>
+        <p>Ilmaisia ruudunlukuohjelmia löytyy lähes joka alustalle. Kaikkien toimintaperiaate on sama, eikä käyttöä ole vaikea oppia. Kokeile ruudunlukuohjelman käyttöä ja tutki vähintään tätä verkkosivua valitsemallasi ohjelmalla. Kerro palautuksessa, mitä löytyi.
+
+        <h4>Apple-iOS: VoiceOver</h4>
+        <p>Jokaisessa Applen laitteessa on käyttöjärjestelmässä mukana <a href="http://www.apple.com/accessibility/iphone/vision/">VoiceOver-ruudunlukuohjelma</a>. Saat sen päälle iOS-laitteissa painamalla kolmesti koti-näppäintä. Jos tämä ei toimi, VoiceOverin löytää asetuksista Settings -> General -> Accessibility -> VoiceOver (Asetukset -> Yleiset -> KÄyttöapu -> VoiceOver).</p>
+
+        <p>VoiceOverin kanssa voi tutkia näytön sisältöä kahdella eri tavalla:</p>
+        <ol>
+            <li>Koskettelemalla näyttöä yhdellä sormella, jolloin VO kertoo, mitä sormen alla on.</li>
+            <li>Pyyhkäisemällä yhdellä sormella oikealle/vasemmalle, jolloin VO:n kohdistus siirtyy elementin eteenpäin/taaksepäin ja kertoo ääneen ko. elementin.</li>
+        </ol>
+
+        <p>HUOM! Klikataksesi jotain kohdetta (kuvake, linkki, painike, tekstikenttä...) pitää kaksoisnapauttaa näyttöä. Yksi kosketus vaan siirtää VO:n kohdistimen kyseiseen paikkaan. Sillä, missä kohtaa näyttöä kaksoisnapautuksen tekee, ei ole merkitystä. Jos sisältöä haluaa vierittää, onnistuu se pyyhkäisemällä kolmella sormella ylös/alas tai vastaavasti sivusuunnassa vierittäessä vasemmalle/oikealle.</p>
+
+        <h4>Android: TalkBack</h4>
+        <p>Android-puhelimissa ja tableteissa on käyttöjärjestelmän sisällä <a href="https://support.google.com/accessibility/android/answer/6007100?hl=fi">TalkBack-ruudunlukuohjelma</a>. Sen saa päälle Settings -> Accessibility -> TalkBack (Asetukset -> Helppokäyttöisyys -> TalkBack).</p>
+
+        <p>TalkBackin kanssa näytön sisältöä saa tutkailtua kahdella eri tavalla:</p>
+        <ol>
+            <li>Koskettelemalla näyttöä yhdellä sormella, jolloin TB kertoo, mitä sormen alla on.</li>
+            <li>Pyyhkäisemällä yhdellä sormella oikealle/vasemmalle, jolloin TB:n kohdistus siirtyy elementin eteenpäin/taaksepäin ja se kertoo ääneen ko.elementin.</li>
+        </ol>
+
+        <p>HUOM! Jos haluat klikata jotain (kuvaketta, linkkiä, tekstikenttää...), pitää kaksoisnapauttaa. Yksi napautus pelkästään siirtää kohdistimen ko. kohtaan. Sisällön vierittäminen onnistuu pyyhkäisemällä kahdella sormella ylös/alas.</p>
+
+
+        <h4>Windows: NVDA</h4>
+
+        <p>Windowsille löytyy maksuton, avoimen lähdekoodin ruudunlukuohjelma <a href="http://www.nvaccess.org">NVDA</a>. Asenna se koneellesi <a href="http://www.nvaccess.org/download/">täältä</a>. </p>
+
+        <p>Koska suurin osa ruudunlukuohjelman käyttäjistä on sokeita eivätkä siis käytä hiirtä, suosittelen toimimaan NVDA:n kanssa näppäimistöllä, jotta kokemus on autenttisempi. Verkkosivulla pystyy liikkumaan nuolinäppäimillä.</p>
+
+        <h4>Linux: Orca</h4>
+        <p>Monessa Linux-versiossa on oletuksena mukana ruudunlukuohjelma <a href="https://help.gnome.org/users/orca/stable/">Orca</a>. Niihin, joihin Orca ei oletuksena sisälly, sen saa todennäköisesti asennettua. Jos Orca löytyy, pitäisi sen mennä päälle näppäinkomennolla Super + alt + s.</p>
+
+
+
+
+
+        <h3>2. Tekstin zoomaus</h3>
+        <p>Jos varsinaista suurennusohjelmaa ei ole käytössä tai ei sellaista ehkä tarvitsekaan, on heikkonäköiselle nettisivujen tekstikoon muuttaminen kätevä tapa helpottaa verkon käyttöä. Kaikilla sivuilla selaimesta tekstikoon muuttaminen ei kuitenkaan auta. Etsi esimerkki sivusta, jolla tekstin zoomaus onnistuu, sekä sivusta, jolla se ei onnistu. Voit myös halutessasi tutustua varsinaisten suurennusohjelmien käyttöön – kuten ruudunlukuohjelmia, lähes joka alustalta löytyy suurentamiseenkin oma "helppokäyttötoimintonsa".</p>
+
+
+        <h3>3. Testaa sivujen kontrastia</h3>
+        <p>Hyvät kontrastit helpottavat taatusti monia. tärkeintä kontrastit on toki värisokeille ja heikkonäköisille, mutta kyllä ihan näkeväkin hyötyy käyttöliittymän selkeistä kontrasteista esimerkiksi auringonpaisteessa kännykkää käyttäessään. Testaa <a href="http://colorfilter.wickline.org">Colorblind web page filterin</a> avulla, miltä eri sivustot näyttävät värisokeiden silmin. Valittavissa on useampi tyyppi värisokeuksia.</p>
+
+        <p>Oman sivuston tekstien ja taustan värien kontrastin tarkistaminen on helppoa esimerkiksi <a href="http://www.checkmycolours.com">Check my colours</a> -sivun avulla. WCAG2.0-ohjeistuksen mukaan kontrastin suhde (contrast ratio) tulisi olla vähintään 4.5:1 ja suuren tekstin (fonttikoko vähintään 18 tai boldattu 14) kohdalla 3:1. Parhaimman tason WCAG:n määritelmissä saavuttaa kontrastien osalta, jos kontrastien suhde on vähintään 7:1 (tai suurella tekstillä 4.5:1).</p>
+
+        <h3>4. Kysyttävää, toiveita</h3>
+        <p>Onko jotain, mitä erityisesti tahdot aiheesta oppia? Jäikö jokin asia mietityttämään luennon jälkeen? Kysy vapaasti!</p>
+
+        <h2>Linkkejä</h2>
+
+        <ul>
+            <li><a href="https://www.youtube.com/watch?v=VkGx-DoTc_g&feature=youtu.be&app=desktop">Codebusters & ilkeä professori Croco</a></li>
+            <li><a href="http://www.w3.org/TR/WCAG20/"WCAG 2.0</a></li>
+        </ul>
+
+    </body>
+</html>

@@ -1,7 +1,27 @@
+.skiplink {
+  position: absolute;
+  left: -10000;
+  top: auto;
+  width: 1px;
+  heigth: 1px;
+  overflow: hidden;
+}
+
 #painike {
   cursor: normal;
 }
 
 nav {
   margin: 0;
+  border-bottom: 2px solid #888;
+}
+
+nav ul {
+  margin: 10px auto;
+  display: table;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 15px;
 }
