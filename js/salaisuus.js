@@ -1,4 +1,5 @@
 function salaisuus() {
+    alert("foo");
     var div = document.getElementById("salaisuus");
     div.style.removeProperty("position")
     div.style.removeProperty("left");
