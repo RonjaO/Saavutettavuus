@@ -1,4 +1,7 @@
+alert(1);
+
 $(document).ready(function() {
+    alert(2);
     $("#painike").click(function(event) {
         alert("fooo");
     });
