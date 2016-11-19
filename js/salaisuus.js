@@ -1,3 +1,5 @@
+alert("jabajee");
+
 function salaisuus() {
     alert("foo");
     var div = document.getElementById("salaisuus");
