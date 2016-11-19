@@ -1,6 +1,6 @@
 
 $(document).ready(function() {
-    $("#painike").bind("touchstart click", function(event) {
+    $("#painike").bind("click", function(event) {
         $("body").append("<p>Lisätty teksti</p>");
         alert("fooo");
     });
