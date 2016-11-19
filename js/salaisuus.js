@@ -8,5 +8,7 @@ function salaisuus() {
     div.style.removeProperty("overflow");
     
     div.style.backgroundColor = "#90EE90";
+    
+    alert(div.style.position);
 }
 
