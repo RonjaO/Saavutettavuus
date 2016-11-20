@@ -1,0 +1,467 @@
+.info_sisalto_go {
+    padding: 6px 6px 6px 0px;
+    font-family: Helvetica, Arial;
+    font-size: 15px;
+    color: #000000;
+	line-height: 130%;
+}
+
+.info_teksti_hide {
+	display:none;
+}
+
+.valitus_teksti_hide {
+	display:none;
+}
+
+.kelatooltip {
+	display:none;
+	width: 300px;
+	height: auto;
+	position:absolute;
+	border:1px solid #B8D7EF ;
+	background-color:#EDF8FC;
+	border-radius:5px;
+	padding:10px;
+	color: #000000;
+	font-family: Arial; 
+    font-size: 15px;
+}
+
+.navi
+{
+    font-family: Helvetica,Arial;
+    font-size: 15px;
+    color: #002277;
+    padding: 0.2em 0 0.2em 0;
+    text-decoration: none;
+}
+
+.navi_valittu
+{
+    font-family: Helvetica,Arial;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 0.2em 0 0.2em 0;
+    color: #FDB913;
+    background-color: #FFFFFF;
+}
+
+.info 
+{
+    font-family: Helvetica, Arial;
+    font-size: 13px;
+    color: #000000;
+    padding-left: 10pt;
+}
+
+.info a
+{
+    font-family: Helvetica, Arial;
+    font-size: 13px;
+    color: #004894;
+    line-height: 130%;
+}
+
+/*eOT käyttää tätä*/
+.info_ot 
+{
+    font-family: Helvetica, Arial;
+    font-size: 13px;
+    color: #000000;
+    padding-left: 10pt;
+}
+
+/*eOT käyttää tätä*/
+ul.info_ot
+{
+	margin-bottom: 0px;
+	margin-left: 18pt;
+}
+
+.kysely_navigaattori
+{
+	border-top: 1px solid #FFC600;
+	border-bottom: 1px solid #FFC600;
+	border-left: 1px solid #FFC600;
+	border-right: 1px solid #FFC600;
+	padding: 3px 6px 3px 6px;
+	background-color: #FFFFFF;
+	font-family: Helvetica, Arial;
+	font-size: 13px;
+	color: #000000
+}
+
+.kysely_navigaattori a
+{
+	padding: 3px 6px 3px 6px;
+	background-color: #FFFFFF;
+	font-family: Helvetica, Arial;
+	font-size: 13px;
+	color: #000000;
+	text-decoration:none;
+}
+
+.ylainfo
+{
+	border-top: 1px solid #FFC600;
+	border-bottom: 1px solid #FFC600;
+	border-left: 1px solid #FFC600;
+	border-right: 1px solid #FFC600;
+	padding: 3px 6px 3px 6px;
+	background-color: #FFE7B0;
+	font-family: Arial;
+	font-size: 15px;
+	color: #000000
+}
+
+.alaotsikko
+{
+	border-bottom: 1px solid #FFC600;
+	padding: 3px 6px 3px 6px;
+	font-family: Arial;
+	font-size: 15px;
+	font-weight: 700;
+	color: #000000
+}
+
+.ylaotsikko 
+{
+    font-family: Helvetica, Arial;
+    font-size: 19px;
+    color: black;
+}
+
+.ylalinkki 
+{
+    font-family: Helvetica,Arial;
+    font-size: 15px;
+    color: #004894;
+}
+
+.viestilinkki {
+    font-family: Helvetica,Arial;
+    font-size: 45px;
+    font-weight:bold;
+    color: #004894;
+}
+
+.logo
+{
+    margin-left: 12pt;
+}
+
+.otsikko
+{ 
+    font-family: Helvetica, Arial; 
+    font-size: 20px; 
+    font-weight: 700;
+    color: #000000;
+}
+
+.sisalto 
+{
+	padding: 3px 6px 3px 6px;
+    font-family: Helvetica, Arial;
+    font-size: 15px;
+    color: #000000;
+    line-height: 130%;
+}
+
+.sisalto_js_linkki {
+	font-family: Helvetica, Arial;
+    font-size: 15px;
+	text-decoration: underline;
+	cursor: pointer;
+	color: #004894;
+	line-height: 130%;
+}
+
+.sisalto_js_linkki2 {
+	font-family: Helvetica, Arial;
+    font-size: 15px;
+	text-decoration: underline;
+	cursor: pointer;
+	color: #004894;
+	line-height: 130%;
+	outline: none;
+}
+
+.taulukon_otsikko_omat_tiedot {
+	padding: 3px 6px 3px 6px;
+	background-color: #FFE7B0;
+	font-family: Arial;
+	font-size: 15px;
+	font-weight: 700;
+	color: #000000;
+	vertical-align: middle;
+}
+
+/* eSOMA (SY) käyttää seuraavaa */
+.sisalto_sy 
+{
+	padding: 3px 6px 3px 6px;
+    font-family: Helvetica, Arial;
+    font-size: 15px;
+    font-weight: bold;
+    color: #000000;
+    line-height: 130%;
+}
+
+/* go_etusivu käyttää seuraavia */
+.taulukon_otsikko_go {
+	border-top: 1px solid #BFBFBF;
+	border-bottom: 1px solid #BFBFBF;
+	padding: 3px 6px 3px 6px;
+	background-color: #FFE7B0;
+	font-family: Arial;
+	font-size: 15px;
+	font-weight: 700;
+	color: #000000;
+	vertical-align: middle;
+}
+
+.sarakkeen_otsikko_go {
+	border-bottom: 1px solid #BFBFBF;
+	padding: 3px 6px 3px 6px;
+	font-family: Arial;
+	font-size: 15px;
+	font-weight: 700;
+	color: #000000;
+	line-height: 130%;
+	vertical-align: top;
+}
+
+.valiotsikko_go {
+	border-bottom: 1px solid #BFBFBF;
+    padding: 3px 6px 3px 6px;
+    font-family: Helvetica, Arial;
+    font-size: 15px;
+    color: #000000;
+    font-weight: bold;
+	line-height: 130%;
+	vertical-align: top;
+}
+
+.tiedot_verotukseen_tausta {
+	background-color: #FFE7B0;
+	padding: 3px 0px 3px 0px;
+	font-family: Arial;
+	font-size: 15px;
+	font-weight: 700;
+	color: #000000;
+	vertical-align: middle;
+}
+
+.info_kuva_go {
+	width: 20px;
+	height: 20px;
+	border: none;
+	padding: 0,0,0,0;	
+}
+
+.tyhja_rivi_go {
+	height: 25px;
+}
+
+.sisalto_go {
+	border-bottom: 1px solid #BFBFBF;
+    padding: 3px 6px 3px 6px;
+    font-family: Helvetica, Arial;
+    font-size: 15px;
+    color: #000000;
+	line-height: 130%;
+	vertical-align: top;
+}
+
+.sisalto_go2 {
+    padding: 3px 6px 3px 6px;
+    font-family: Helvetica, Arial;
+    font-size: 15px;
+    color: #000000;
+	line-height: 130%;
+	vertical-align: top;
+}
+
+.sisalto_go3 {
+	border-bottom: 1px solid #BFBFBF;
+    padding: 3px 6px 3px 6px;
+    font-family: Helvetica, Arial;
+    font-size: 15px;
+    color: #000000;
+    font-style: italic;
+	line-height: 130%;
+	vertical-align: top;
+}
+
+.sisalto_go5 {
+    padding: 6px 6px 6px 0px;
+    font-family: Helvetica, Arial;
+    font-size: 15px;
+    color: #000000;
+	line-height: 130%;
+	vertical-align: top;
+}
+
+.sisalto_go4 {
+    padding: 3px 6px 3px 0px;
+    font-family: Helvetica, Arial;
+    font-size: 15px;
+    color: #000000;
+    font-style: italic;
+	line-height: 130%;
+	vertical-align: top;
+}
+
+.sisalto_tositteet {
+	padding-bottom: 15px;
+
+}
+
+ul.muistutus_go1 {
+	padding-left: 0px;
+	margin-left: 13px;
+	margin-bottom: 2px;
+	list-style-type: square;
+}
+
+ul.muistutus_go2 {
+	padding-left: 0px;
+	margin-left: 17px;
+	margin-bottom: 2px;
+	list-style-type: circle;
+}
+
+/*eTT lausunnot käyttää tätä */
+.sisaltoTT 
+{
+    font-family: Courier New;
+    font-size: 12px;
+    color: #000000;
+    line-height: 130%;
+}
+
+.sisalto a 
+{
+    font-family: Helvetica, Arial;
+    font-size: 15px;
+    color: #004894;
+    line-height: 130%;
+}
+
+/*ePE käyttää tätä*/
+.sisennys 
+{
+    font-family: Helvetica, Arial;
+    font-size: 15px;
+    color: #000000;
+    line-height: 130%;
+    padding-left: 7px;
+}
+
+/*ePE käyttää tätä*/
+.tasaus_vasen_ylos 
+{
+    font-family: Helvetica, Arial;
+    font-size: 15px;
+    color: #000000;
+    line-height: 130%;
+    text-align: left;
+    vertical-align: top;
+}
+
+.nimi		
+{
+    font-family: Helvetica, Arial;
+    font-size: 15px;
+    color: #999999;
+    font-weight: 700;
+}
+
+.asiaotsikko 
+{
+	padding: 3px 6px 3px 6px;
+    font-family: Helvetica, Arial;
+    font-size: 15px;
+    font-weight: 700;
+    color: #000000;
+}
+
+.paiva
+{
+    font-family:Helvetica,Arial;
+    font-size:13px;
+    color: #7F7F7F;
+}
+
+hr.viiva 
+{
+    color: #BFBFBF;
+}
+
+pre
+{
+    font-size:12px;
+}
+
+.Message {
+	color: red;
+	font-weight: bold;
+	font-family: Helvetica, Arial, sans-serif
+}
+
+.Huomautus
+{
+	color: green;
+	font-weight: bold;
+	font-family: Helvetica, Arial, sans-serif
+}
+
+hr.katkoviiva 
+{
+	border: 0px;
+	height: 1px;
+    color: #BFBFBF;
+    border-top: 1px dashed #BFBFBF;
+    margin-bottom:20px;
+}
+
+input.nappi
+{
+	background-color: #1473E3;
+	background-image: url('../kuvat/liuku3.gif');
+	background-repeat: repeat-x;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	color: white;
+	font-weight: bold;
+	border-top: 1px solid white;
+	border-left: 1px solid white;
+	border-bottom: 1px solid #505070;
+	border-right: 1px solid #505070;
+}
+
+input.nappi:active
+{
+	background-color: #1473E3;
+	background-image: url('../kuvat/liuku3.gif');
+	background-repeat: repeat-x;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	color: white;
+	font-weight: bold;
+	border-bottom: 1px solid white;
+	border-right: 1px solid white;
+	border-top: 1px solid #505070;
+	border-left: 1px solid #505070;
+}
+
+.ui-state-focus:focus 
+{
+    outline:1px dotted red !important 
+}
+
