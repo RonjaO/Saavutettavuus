@@ -10,13 +10,13 @@
 
         <h2>Tehtävät</h2>
 
-        <p>Vastaa tehtäviin sähköpostilla osoitteeseen ronja.oja@helsinki.fi.</p>
+        <p>Vastaa tehtäviin sähköpostilla osoitteeseen <a href="mailto:ronja.oja@helsinki.fi">ronja.oja@helsinki.fi</a>.</p>
 
         <h3>1. Kokeile ruudunlukuohjelman käyttöä</h3>
         <p>Ilmaisia ruudunlukuohjelmia löytyy lähes joka alustalle. Kaikkien toimintaperiaate on sama, eikä käyttöä ole vaikea oppia. Kokeile ruudunlukuohjelman käyttöä ja tutki vähintään tätä verkkosivua valitsemallasi ohjelmalla. Kerro palautuksessa, mitä löytyi.
 
         <h4>Apple-iOS: VoiceOver</h4>
-        <p>Jokaisessa Applen laitteessa on käyttöjärjestelmässä mukana <a href="http://www.apple.com/accessibility/iphone/vision/">VoiceOver-ruudunlukuohjelma</a>. Saat sen päälle iOS-laitteissa painamalla kolmesti koti-näppäintä. Jos tämä ei toimi, VoiceOverin löytää asetuksista Settings -> General -> Accessibility -> VoiceOver (Asetukset -> Yleiset -> KÄyttöapu -> VoiceOver).</p>
+        <p>Jokaisessa Applen laitteessa on käyttöjärjestelmässä mukana <a href="http://www.apple.com/accessibility/iphone/vision/">VoiceOver-ruudunlukuohjelma</a>. Saat sen päälle iOS-laitteissa painamalla kolmesti Koti-näppäintä. Jos tämä ei toimi, VoiceOverin löytää asetuksista Settings -> General -> Accessibility -> VoiceOver (Asetukset -> Yleiset -> Käyttöapu -> VoiceOver).</p>
 
         <p>VoiceOverin kanssa voi tutkia näytön sisältöä kahdella eri tavalla:</p>
         <ol>
@@ -24,7 +24,7 @@
             <li>Pyyhkäisemällä yhdellä sormella oikealle/vasemmalle, jolloin VO:n kohdistus siirtyy elementin eteenpäin/taaksepäin ja kertoo ääneen ko. elementin.</li>
         </ol>
 
-        <p>HUOM! Klikataksesi jotain kohdetta (kuvake, linkki, painike, tekstikenttä...) pitää kaksoisnapauttaa näyttöä. Yksi kosketus vaan siirtää VO:n kohdistimen kyseiseen paikkaan. Sillä, missä kohtaa näyttöä kaksoisnapautuksen tekee, ei ole merkitystä. Jos sisältöä haluaa vierittää, onnistuu se pyyhkäisemällä kolmella sormella ylös/alas tai vastaavasti sivusuunnassa vierittäessä vasemmalle/oikealle.</p>
+        <p>HUOM! Klikataksesi jotain kohdetta (kuvake, linkki, painike, tekstikenttä...) pitää kaksoisnapauttaa näyttöä. Yksi kosketus vain siirtää VO:n kohdistimen kyseiseen paikkaan. Sillä, missä kohtaa näyttöä kaksoisnapautuksen tekee, ei ole merkitystä. Jos sisältöä haluaa vierittää, onnistuu se pyyhkäisemällä kolmella sormella ylös/alas tai vastaavasti sivusuunnassa vierittäessä vasemmalle/oikealle.</p>
 
         <h4>Android: TalkBack</h4>
         <p>Android-puhelimissa ja tableteissa on käyttöjärjestelmän sisällä <a href="https://support.google.com/accessibility/android/answer/6007100?hl=fi">TalkBack-ruudunlukuohjelma</a>. Sen saa päälle Settings -> Accessibility -> TalkBack (Asetukset -> Helppokäyttöisyys -> TalkBack).</p>
@@ -51,16 +51,18 @@
 
 
 
-        <h3>2. Tekstin zoomaus</h3>
-        <p>Jos varsinaista suurennusohjelmaa ei ole käytössä tai ei sellaista ehkä tarvitsekaan, on heikkonäköiselle nettisivujen tekstikoon muuttaminen kätevä tapa helpottaa verkon käyttöä. Kaikilla sivuilla selaimesta tekstikoon muuttaminen ei kuitenkaan auta. Etsi esimerkki sivusta, jolla tekstin zoomaus onnistuu, sekä sivusta, jolla se ei onnistu. Voit myös halutessasi tutustua varsinaisten suurennusohjelmien käyttöön – kuten ruudunlukuohjelmia, lähes joka alustalta löytyy suurentamiseenkin oma "helppokäyttötoimintonsa".</p>
+        <h3>2. Tekstin suurentaminen</h3>
+        <p>Jos varsinaista suurennusohjelmaa ei ole käytössä tai ei sellaista ehkä tarvitsekaan, on heikkonäköiselle nettisivujen tekstikoon muuttaminen kätevä tapa helpottaa verkon käyttöä. Kaikilla sivuilla selaimesta tekstikoon muuttaminen ei kuitenkaan onnistu, jos tekstikoko on määritelty kiinteäksi. En tarkoita nyt koko sivun zoomausta, vaan pelkän tekstin fonttikoon muuttaamista, jolloin asettelun pitäisi myös pysyä muutoin samana ja vain tekstin kasvaa. Mobiililaitteilla voi laitteen asetuksista säätää tekstikokoa suuremmaksi ja se suurentaa myös selaimen tekstikokoa, jos mahdollista. Työpöytäselaimissa saman asian tekemisen yksinkertaisuus vaihtelee: ainakin Internet Explorerilla ja Safarilla pelkän tekstikoon muuttaminen onnistuu Näytä-valikon kautta, kun taas Chromella täytyy mennä selaimen asetuksiin ja valita sieltä vielä lisäasetukset, jotta tekstille voi määrittää minimikoon. Ominaisuuden toimivuutta voit testata esimerkiksi Googlen hakusivulla.</p>
+
+        <p>Etsi esimerkki sivusta, jolla tekstin zoomaus onnistuu, sekä sivusta, jolla se ei onnistu. Voit myös halutessasi tutustua varsinaisten suurennusohjelmien käyttöön – kuten ruudunlukuohjelmia, lähes joka alustalta löytyy suurentamiseenkin oma "helppokäyttötoimintonsa".</p>
 
 
         <h3>3. Testaa sivujen kontrastia</h3>
-        <p>Hyvät kontrastit helpottavat taatusti monia. tärkeintä kontrastit on toki värisokeille ja heikkonäköisille, mutta kyllä ihan näkeväkin hyötyy käyttöliittymän selkeistä kontrasteista esimerkiksi auringonpaisteessa kännykkää käyttäessään. Testaa <a href="http://colorfilter.wickline.org">Colorblind web page filterin</a> avulla, miltä eri sivustot näyttävät värisokeiden silmin. Valittavissa on useampi tyyppi värisokeuksia.</p>
+        <p>Hyvät kontrastit auttavat taatusti monia. Tärkeintä hyvät kontrastit ovat toki värisokeille, heikkonäköisille ja ikääntyneille, mutta kyllä ihan normaalisti näkeväkin hyötyy käyttöliittymän selkeistä kontrasteista esimerkiksi auringonpaisteessa kännykkää käyttäessään. Testaa <a href="http://www.color-blindness.com/coblis-color-blindness-simulator/">Colorblindness simulatorin</a> avulla, miltä eri sivustot näyttävät värisokeiden silmin. Valittavissa on useampi tyyppi värisokeuksia. Tämä värisokeussimulaattori toimii kuvilla, joten tässä ainakin pari testattavaa kuvakaappausta: <a href="/kuvat/doodles.png">Doodles</a> ja <a href="/kuvat/ars.png">Ars</a>.</p>
 
         <p>Oman sivuston tekstien ja taustan värien kontrastin tarkistaminen on helppoa esimerkiksi <a href="http://www.checkmycolours.com">Check my colours</a> -sivun avulla. WCAG2.0-ohjeistuksen mukaan kontrastin suhde (contrast ratio) tulisi olla vähintään 4.5:1 ja suuren tekstin (fonttikoko vähintään 18 tai boldattu 14) kohdalla 3:1. Parhaimman tason WCAG:n määritelmissä saavuttaa kontrastien osalta, jos kontrastien suhde on vähintään 7:1 (tai suurella tekstillä 4.5:1).</p>
 
-        <h3>4. Kysyttävää, toiveita</h3>
+        <h3>4. Kysyttävää, toiveita, kommentoitavaa</h3>
         <p>Onko jotain, mitä erityisesti tahdot aiheesta oppia? Jäikö jokin asia mietityttämään luennon jälkeen? Kysy vapaasti!</p>
 
         <h2>Linkkejä</h2>
