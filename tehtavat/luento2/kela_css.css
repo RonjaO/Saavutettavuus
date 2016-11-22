@@ -1,33 +1,3 @@
-.info_sisalto_go {
-    padding: 6px 6px 6px 0px;
-    font-family: Helvetica, Arial;
-    font-size: 15px;
-    color: #000000;
-	line-height: 130%;
-}
-
-.info_teksti_hide {
-	display:none;
-}
-
-.valitus_teksti_hide {
-	display:none;
-}
-
-.kelatooltip {
-	display:none;
-	width: 300px;
-	height: auto;
-	position:absolute;
-	border:1px solid #B8D7EF ;
-	background-color:#EDF8FC;
-	border-radius:5px;
-	padding:10px;
-	color: #000000;
-	font-family: Arial; 
-    font-size: 15px;
-}
-
 .navi
 {
     font-family: Helvetica,Arial;
@@ -61,45 +31,6 @@
     font-size: 13px;
     color: #004894;
     line-height: 130%;
-}
-
-/*eOT käyttää tätä*/
-.info_ot 
-{
-    font-family: Helvetica, Arial;
-    font-size: 13px;
-    color: #000000;
-    padding-left: 10pt;
-}
-
-/*eOT käyttää tätä*/
-ul.info_ot
-{
-	margin-bottom: 0px;
-	margin-left: 18pt;
-}
-
-.kysely_navigaattori
-{
-	border-top: 1px solid #FFC600;
-	border-bottom: 1px solid #FFC600;
-	border-left: 1px solid #FFC600;
-	border-right: 1px solid #FFC600;
-	padding: 3px 6px 3px 6px;
-	background-color: #FFFFFF;
-	font-family: Helvetica, Arial;
-	font-size: 13px;
-	color: #000000
-}
-
-.kysely_navigaattori a
-{
-	padding: 3px 6px 3px 6px;
-	background-color: #FFFFFF;
-	font-family: Helvetica, Arial;
-	font-size: 13px;
-	color: #000000;
-	text-decoration:none;
 }
 
 .ylainfo
@@ -168,25 +99,6 @@ ul.info_ot
     line-height: 130%;
 }
 
-.sisalto_js_linkki {
-	font-family: Helvetica, Arial;
-    font-size: 15px;
-	text-decoration: underline;
-	cursor: pointer;
-	color: #004894;
-	line-height: 130%;
-}
-
-.sisalto_js_linkki2 {
-	font-family: Helvetica, Arial;
-    font-size: 15px;
-	text-decoration: underline;
-	cursor: pointer;
-	color: #004894;
-	line-height: 130%;
-	outline: none;
-}
-
 .taulukon_otsikko_omat_tiedot {
 	padding: 3px 6px 3px 6px;
 	background-color: #FFE7B0;
@@ -195,17 +107,6 @@ ul.info_ot
 	font-weight: 700;
 	color: #000000;
 	vertical-align: middle;
-}
-
-/* eSOMA (SY) käyttää seuraavaa */
-.sisalto_sy 
-{
-	padding: 3px 6px 3px 6px;
-    font-family: Helvetica, Arial;
-    font-size: 15px;
-    font-weight: bold;
-    color: #000000;
-    line-height: 130%;
 }
 
 /* go_etusivu käyttää seuraavia */
@@ -253,19 +154,7 @@ ul.info_ot
 	vertical-align: middle;
 }
 
-.info_kuva_go {
-	width: 20px;
-	height: 20px;
-	border: none;
-	padding: 0,0,0,0;	
-}
-
-.tyhja_rivi_go {
-	height: 25px;
-}
-
 .sisalto_go {
-	border-bottom: 1px solid #BFBFBF;
     padding: 3px 6px 3px 6px;
     font-family: Helvetica, Arial;
     font-size: 15px;
@@ -275,15 +164,6 @@ ul.info_ot
 }
 
 .sisalto_go2 {
-    padding: 3px 6px 3px 6px;
-    font-family: Helvetica, Arial;
-    font-size: 15px;
-    color: #000000;
-	line-height: 130%;
-	vertical-align: top;
-}
-
-.sisalto_go3 {
 	border-bottom: 1px solid #BFBFBF;
     padding: 3px 6px 3px 6px;
     font-family: Helvetica, Arial;
@@ -316,20 +196,6 @@ ul.info_ot
 .sisalto_tositteet {
 	padding-bottom: 15px;
 
-}
-
-ul.muistutus_go1 {
-	padding-left: 0px;
-	margin-left: 13px;
-	margin-bottom: 2px;
-	list-style-type: square;
-}
-
-ul.muistutus_go2 {
-	padding-left: 0px;
-	margin-left: 17px;
-	margin-bottom: 2px;
-	list-style-type: circle;
 }
 
 /*eTT lausunnot käyttää tätä */
@@ -458,10 +324,5 @@ input.nappi:active
 	border-right: 1px solid white;
 	border-top: 1px solid #505070;
 	border-left: 1px solid #505070;
-}
-
-.ui-state-focus:focus 
-{
-    outline:1px dotted red !important 
 }
 
