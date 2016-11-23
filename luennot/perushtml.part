@@ -6,7 +6,9 @@
 
         <p>Käytännössä kaikelle sivun mahdolliselle sisällölle löytyy html:stä oma semanttinen vastineensa. Ne ovat olemassa ihan siksi, että niitä voisi käyttää – oikeassa semanttisessa tarkoituksessaan. Jos teet taulukon, tee taulukko (table). Jos teet listan, tee lista (ol tai ul). Ehkä kuitenkin kaikkein tärkein semanttinen asia ruudunlukukäyttäjän näkökulmasta on otsikkotasot (h-elementit). Jos otsikko on tehty pelkästään tyylejä käyttämällä, ei sitä pysty sokea käyttäjä löytämään tai erottamaan otsikoksi. Eikä taas käänteisesti muuta kuin otsikkoa saisi laittaa h-elementin sisään, vaikka siinä vähän "ilmaiseksi" saisi muotoiluja.</p>
 
-        <p>Taulukoissa on muutakin semantiikkaa kuin pelkkä table-elementti. Ruudunlukuohjelmalle täydellisen toimivan taulukon saa aikaan 
+        <p>Taulukoissa on muutakin semantiikkaa kuin pelkkä table-elementti. Ruudunlukuohjelmalle paremmin toimivan taulukon saa aikaan, kun taulukon otsikko- ja sisältösoluihin on käytetty oikeita elementtejä: otsikot ovat <b>th</b> ja sisältö <b>td</b>. Näin ruudunlukuohjelma osaa kertoa solussa myös sen sarakkeen otsikon, eikä käyttäjän tarvitse yrittää laskea ja muistaa, mikä oli minkäkin sarakkeen otsikko.</p>
+
+        <p>Otsikoiden, eli niiden h-elementtien, tasot ovat myös tärkeitä sivuston hierarkian ymmärtämiseksi: sivun pääotsikko on <b>h1</b>, eikä samalla sivulla ole pääsisällössä toista h1-elementtiä. 
 
 
 
