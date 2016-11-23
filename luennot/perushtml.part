@@ -1,0 +1,14 @@
+        <h1 id="main">Luento 2: Perus HTML:ää saavutettavasti</h1>
+
+        <p>Jos sivujen html-määritykset tehdään hyvien tapojen ja oikeasti html:n periaatteiden mukaisesti, siinä on käytännössä kaikki, mitä saavutettavan verkkosivun tekemiseen tarvitaan. Kun asiat on määritelty html-tasolla oikein, esimerkiksi ruudunlukuohjelmat ymmärtävät ne myös oikein. Ongelmia alkaa tulla vastaan lähinnä siinä vaiheessa, jos lähdetään kikkailemaan. </p>
+
+        <h3>Semantiikka avainasemassa</h3>
+
+        <p>Käytännössä kaikelle sivun mahdolliselle sisällölle löytyy html:stä oma semanttinen vastineensa. Ne ovat olemassa ihan siksi, että niitä voisi käyttää – oikeassa semanttisessa tarkoituksessaan. Jos teet taulukon, tee taulukko (table). Jos teet listan, tee lista (ol tai ul). Ehkä kuitenkin kaikkein tärkein semanttinen asia ruudunlukukäyttäjän näkökulmasta on otsikkotasot (h-elementit). Jos otsikko on tehty pelkästään tyylejä käyttämällä, ei sitä pysty sokea käyttäjä löytämään tai erottamaan otsikoksi. Eikä taas käänteisesti muuta kuin otsikkoa saisi laittaa h-elementin sisään, vaikka siinä vähän "ilmaiseksi" saisi muotoiluja.</p>
+
+        <p>Taulukoissa on muutakin semantiikkaa kuin pelkkä table-elementti. Ruudunlukuohjelmalle täydellisen toimivan taulukon saa aikaan 
+
+
+
+    </body>
+</html>
