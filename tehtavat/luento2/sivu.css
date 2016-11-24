@@ -10,6 +10,8 @@
 
 header img {
   width: 200px;
+  margin-bottom:-30px;
+  margin-top:-30px
   display: block;
   margin: auto;
 }
@@ -29,7 +31,7 @@ h2 {
 
 .pankit li {
   display: inline-block;
-  margin: 0 15px;
+  margin: 0 5px;
 }
 
 .maksutavat {
