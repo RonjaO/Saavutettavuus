@@ -12,10 +12,13 @@ body {
   text-decoration: none;
 }
 
-header img {
-  width: 200px;
+header {
   margin-bottom:-30px;
   margin-top:-30px;
+}
+
+header img {
+  width: 200px;
   display: block;
   margin: auto;
 }
