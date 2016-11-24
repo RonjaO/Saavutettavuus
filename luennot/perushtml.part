@@ -37,5 +37,17 @@
 
         <p>Palauta tehtävät sähköpostilla <a href="mailto:ronja.oja@helsinki.fi">ronja.oja@helsinki.fi</a>.</p>
 
+        <h3>1. Saavutettava ilmoittautumislomake</h3>
+
+        <p><a href="https://jsfiddle.net/8277uq2d/">Illallisten ilmoittautumislomakkeessa</a> on muutamia saavutettavuusongelmia. Laita labelit kohdilleen yms tarpeellista.</p>
+
+        <h3>2. Verkkokauppa</h3>
+
+        <p><a href="">Verkkokaupan etusivu</a> on täynnä pienempiä ja suurempia ongelmia. Ainakin kuville ja otsikoille pitäisi tehdä jotain. Tyylimäärityksiin ei ole pakko koskea – mutta saa, jos haluaa.</p>
+
+        <h3>3. Kelan asiointipalvelu</h3>
+
+        <p><a href="https://jsfiddle.net/mbdjm37d/">Kelan asiointipalvelu</a> on ruudunlukuohjelman käyttäjälle melkoinen haaste. Lisää sivulle otsikoita ja pyri pääsemään eroon taulukolla tehdystä layoutista.</p>
+
     </body>
 </html>
