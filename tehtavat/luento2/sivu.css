@@ -24,13 +24,16 @@ header h1 {
 }
 
 h2 {
-  font-size:1.2em;
+  font-size:1em;
   font-weight: normal;
 }
 
 .pankit {
-  margin: 10px auto;
+  margin: 5px auto;
   display: table;
+}
+.pankit img {
+  width: 40px;
 }
 
 .pankit li {
@@ -40,15 +43,16 @@ h2 {
 
 .maksutavat {
   font-weight: bold;
-  font-size: 16px;
+  font-size: 1.2em;
+}
+
+.alet {
+  font-weight: bold;
+  font-size: 1.1em;
 }
 
 table {
   border: none;
   background-color: #EEDDEE;
   margin: 20px;
-}
-
-p {
-  margin: 30px;
 }
