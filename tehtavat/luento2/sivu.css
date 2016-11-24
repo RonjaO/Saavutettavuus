@@ -1,10 +1,10 @@
-ul .linkkilista {
+.linkkilista {
   list-style-type: none;
   float: right;
   border-left: 2px solid #666;
 }
 
-ul .linkkilista a {
+.linkkilista a {
   text-decoration: none;
 }
 
