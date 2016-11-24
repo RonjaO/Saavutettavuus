@@ -19,6 +19,10 @@ header img {
   margin: 10px;
 }
 
+header h1 {
+  margin: 50px;
+}
+
 .pankit {
   margin: 10px auto;
   display: table;
