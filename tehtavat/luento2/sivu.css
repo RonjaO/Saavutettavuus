@@ -1,0 +1,30 @@
+ul .linkkilista {
+  list-style-type: none;
+  float: right;
+  border-left: 2px solid #666;
+}
+
+ul .linkkilista a {
+  text-decoration: none;
+}
+
+header {
+  margin: 0;
+}
+
+header img {
+  float: left;
+  height: 40;
+  width: 40;
+  margin: 10px;
+}
+
+ul .pankit {
+  margin: 10px auto;
+  display: table;
+}
+
+ul .pankit li {
+  display: inline-block;
+  margin: 0 15px;
+}
