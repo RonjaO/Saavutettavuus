@@ -8,19 +8,10 @@
   text-decoration: none;
 }
 
-header {
-  margin: 0;
-}
-
 header img {
-  height: 60px;
-  width: 60px;
-}
-
-header h1 {
-  margin: 10px 0 10px 100px;
-  vertical-align: bottom;
-  display: inline;
+  width: 200px;
+  display: block;
+  margin: auto;
 }
 
 h2 {
