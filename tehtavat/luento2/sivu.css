@@ -14,8 +14,8 @@ header {
 
 header img {
   float: left;
-  height: 40;
-  width: 40;
+  height: 60;
+  width: 60;
   margin: 10px;
 }
 
@@ -28,4 +28,14 @@ header img {
 .pankit li {
   display: inline-block;
   margin: 0 15px;
+}
+
+span {
+  font-widht: bold;
+  font-size: 14;
+}
+
+.kuvitus {
+  height: 100;
+  width: 100;
 }
