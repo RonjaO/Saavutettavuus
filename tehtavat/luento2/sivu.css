@@ -19,12 +19,13 @@ header img {
   margin: 10px;
 }
 
-ul .pankit {
+.pankit {
   margin: 10px auto;
   display: table;
+  list-style-type: none;
 }
 
-ul .pankit li {
+.pankit li {
   display: inline-block;
   margin: 0 15px;
 }
