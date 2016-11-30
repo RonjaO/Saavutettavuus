@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Radiobuttonit</tilte>
+    </head>
+    <body>
+
+<style type="text/css">
+ul.menu {
+  position: absolute;
+  list-style: none;
+  background-color: #ccc;
+  width: 8.5em;
+}
+
+ul.menu li {
+  float: none;
+  display: block;
+  white-space: nowrap;
+  padding: 2px 1em;
+  color: black;
+}
+
+li.checked {
+  font-weight: bold;
+  background-image: url('http://www.oaa-accessibility.org/media/examples/images/dot.png');
+  background-repeat: no-repeat;
+  background-position: 5px 10px;
+}
+</style>
+
+<h2>Valitse yksi vaihtoehto</h2>
+
+<ul class="menu">
+    <li id="kala" class="menu-item checked">Kala</li>
+    <li id="liha" class="menu-item">Liha</li>
+    <li id="kasvis" class="menu-item">Kasvis</li>
+</ul>
+
+
+<script type="text/javascript">
+function valitse(index) {
+    var vaihtoehdot = document.getElementsByTagName("li");
+
+    for (var i = 0; i < vaihtoehdot.length; i++) {
+        if (index == i) {
+            vaihtoehdot[i].className = 'menu-item checked';
+        } else {
+            vaihtoehdot[i].className = 'menu-item';
+        }
+    }
+}
+</script>
+
+</body>
+</html>

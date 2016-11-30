@@ -1,0 +1,53 @@
+        <h1 id="main">3. Syvemmälle saavutettavuuteen: HTML ja CSS</h1>
+
+        <h2>Materiaali</h2>
+
+        <h3>ARIA-atribuutit</h3>
+
+        <p> ARIA (Accessible Rich Internet application) on valikoima atribuutteja, joiden avulla verkkosivusta saa tehtyä saavutettavamman apuvälineille. Uusimmat selaimet ja ruudunlukuohjelmat tukevat ARIA-atribuutteja, mutta vanhat välttämättä eivät. ARIA:n avulla saa tehtyä paljon nppäriä asioita ja niiden avulla pystyy mm. korjaamaan ruudunlukuohjelman käyttäjän näkökulmasta sivun semantiikkaa oikeaksi. Silti ensisijaisesti tulisi noudattaa perus HTML-semantiikkaa, jotta vanhemmatkin ruudunlukijat ymmärtävät sisällön oikein.</p>
+
+        <p>ARIA-atribuutin voi lisätä lähes jokaiselle html-elementille. ARIA:an sisältyy <b>role</b>-atribuutti sekä joukko erilaisia <b>aria-*</b> -atribuutteja. Role-atribuutti kertoo nimensä mukaisesti elementin roolin, esimerkiksi "main", "button", "menubar" jne – vaihtoehtoja on toista sataa. Aria-* -atribuuteilla voi taas lisätä elementille vaikka kuvauksen (aria-describedby=id), labelin (aria-label="tekstiä") tai sen voi piilottaa ruudunlukuohjelmalta (aria-hidden=true/false).</p>
+
+        <p>Monet ARIA-atribuutit lisäävät saavutettavuutta etenkin dynaamisen sisällön kanssa. Keskitytään toistaiseksi atribuutteihin, joista on apua myös ilman JavaScriptiä ja jatketaan myöhemmin aiheesta lisää.</p>
+
+        <h4>Hyödyllisiä aria-* -atribuutteja</h4>
+
+        <table>
+            <tr><th>Atributti</th> <th>Arvo</th> <th>Kuvaus</th> <th>Esimerkki</th></tr>
+            <tr>
+                <td>aria-describedby</td> <td>id</td> <td>Lisäkuvaus elementin toiminnalle</td> <td>Lomakekentässä "tooltip", salasanan muoto</td> 
+            </tr>
+            <tr>
+                <td>aria-hidden</td> <td>true/false</td> <td>Piilottaa elementin ruudunlukuohjelmalta</td> <td> </td>
+            </tr>
+            <tr>
+                <td>aria-label</td> <td>tekstiä</td> <td>Kertoo ruudunlukuohjelmalle halutun asian elementistä</td> <td>Lue lisää -linkkiin tieto, mistä voi lukea lisää</td>
+            </tr>
+            <tr>
+                <td>aria-labelledby</td> <td>id1 id2 ...</td> <td>Lista elementille annettavista labeleista/td> <td>Lomake-elementti, jolla labelina sekä "oma" label että ryhmän label.</td>
+            <tr>
+                <td>aria-required</td> <td>true/false</td> <td>Kertoo lomake-elementin pakollisuudesta</td> <td> </td>
+            <tr>
+                <td>aria-level</td> <td>numero</td> <td>Ilmaisee elementin hierarkiaa</td> <td>Apuna esimerkiksi puurakenteen ja "alilistojen" ymmärtämisessä</td>
+            </tr>
+            <tr>
+                <td>aria-setsize</td> <td>numero</td> <td>Elementin, esimerkiksi listan tai puun, koko</td> td> </td>
+            </tr>
+        </table>
+
+        <p></p>
+
+
+        <h2>Tehtävät</h2>
+
+        <h3>1. Viestilista</h3>
+
+        <p><a href="https://jsfiddle.net/sLaw9f7a/">Viestilista</a> näyttää viestin sisällön, kun klikkaa sitä listasta. Valitettavasti viestilistan elementit ovat vain li-elementtejä, joten ruudunlukuohjelmalle niiden klikattavuus ei ole itsestäänselvää. Tee ARIA:n avulla li-elementeistä ruudunlukuohjelman näkökulmasta painikkeita.</p>
+
+
+
+        <h2>Linkkejä</h2>
+
+        <ul>
+            <li><a href="http://w3c.github.io/aria-in-html/">W3C: Notes on using ARIA in HTML</<></li>
+        </ul>

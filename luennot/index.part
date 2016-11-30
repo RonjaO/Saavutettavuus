@@ -20,10 +20,7 @@
                 <td>25.11.</td> <td><a href="perushtml.html">2. HTML:ää saavutettavasti:</a></td> <td>Saavutettavan web-ohjelmoinnin perusteet</td>
             </tr>
             <tr>
-                <td>29.11.</td> <td>3. Syvemmälle saavutettavuuteen:</td> <td>Mitä kaikkea HTML:llä ja CSS:llä saa aikaan ja mitä ehkä kannattaa jättää tekemättä</td>
-            </tr>
-            <tr>
-                <td>2.12.</td> <td>4. JavaScript ja dynaamiset sivut</td> <td>Kuinka dynaaminen sivu tehdään saavutettavaksi</td>
+                <td>2.12.</td> <td>3. Syvemmälle saavutettavuuteen:</td> <td>Saavutettava dynaaminen sisältö ja mitä kaikkea html:llä ja css:llä saakaan aikaan</td>
             </tr>
             <tr>
                 <td>8.12.</td> <td>5. Sisällön saavutettavuus:</td> <td>Jos raamit on kunnossa, mikä merkitys sisällöllä</td>
