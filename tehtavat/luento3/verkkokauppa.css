@@ -1,0 +1,77 @@
+body {
+  margin: 0 30px;
+}
+
+.linkkilista {
+  list-style-type: none;
+  float: right;
+  border-left: 2px solid #666;
+}
+
+.linkkilista a {
+  text-decoration: none;
+  color: black;
+}
+
+.linkkilista a:hover, .linkkilista a:focus {
+  background-color: #EEDDEE;
+}
+
+header {
+  margin-bottom:-30px;
+  margin-top:-30px;
+}
+
+header img {
+  width: 200px;
+  display: block;
+  margin: auto;
+}
+
+p.hehkutus {
+  font-size:1em;
+  font-weight: normal;
+}
+
+.pankit {
+  margin: 5px auto;
+  display: table;
+}
+.pankit img {
+  width: 40px;
+}
+
+.pankit li {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+table {
+  border: none;
+  background-color: #EEDDEE;
+  margin: 20px;
+}
+
+.kotimenu {
+  position: relative;
+  display: inline-block;
+}
+
+.kotimenu-sisalto {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  box-shadow:  0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.kotimenu:hover .kotimenu-sisalto {
+  display: block;
+}
+
+.kotimenu:hover .kotimenulinkki {
+  background-color: #DDEEEE;
+}
+
+.show {
+  display: block;
+}
