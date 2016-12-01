@@ -52,19 +52,31 @@ table {
   margin: 20px;
 }
 
-.kotimenu {
+.kotimenu,
+.matkailumenu,
+.harrastusmenu,
+.lastenmenu,
+.lemmikkimenu {
   position: relative;
   display: inline-block;
 }
 
-.kotimenu-sisalto {
+.kotimenu-sisalto, 
+.matkailumenu-sisalto,
+.harrastusmenu-sisalto,
+.lastenmenu-sisalto,
+.lemmikkimenu-sisalto {
   display: none;
   position: absolute;
   min-width: 160px;
   box-shadow:  0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
-.kotimenu:hover .kotimenu-sisalto {
+.kotimenu:hover .kotimenu-sisalto,
+.matkailumenu:hover .matkailumenu-sisalto,
+.harrastusmenu:hover .harrastusmenu.sisalto,
+.lastenmenu:hover .lastenmenu-sisalto,
+.lemmikkimenu:hover .lemmikkimenu-sisalto {
   display: block;
 }
 

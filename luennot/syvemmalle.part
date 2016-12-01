@@ -48,6 +48,8 @@
             </tr>
         </table>
 
+        <script async src="//jsfiddle.net/hvo6sm2u/embed/"></script>
+
         <h4>Tarpeellisia role-attribuutin arvoja</h4>
 
         <p>Kaikki seuraavat ovat muotoa role="arvo".</p>
@@ -87,6 +89,10 @@
         </table>
 
         <p>Erilaisia roleja on vielä ehkä noin 100 lisää.</p>
+
+        <script async src="//jsfiddle.net/qq2ccfn7/embed/"></script>
+
+        <h3>CSS ja saavutettavuus</h3>
 
 
         <h2>Tehtävät</h2>
