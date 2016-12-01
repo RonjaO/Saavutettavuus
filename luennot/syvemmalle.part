@@ -2,6 +2,14 @@
 
         <h2>Materiaali</h2>
 
+        <h3>Dynaaminen sisältö</h3>
+
+        <p>Dynaamisen sisällön kanssa toimiminen ei ole apuvälineille mikään helpoin tehtävä. Kesken kaiken muuttuva DOM on haaste esimerkiksi ruudunlukuohjelmille. Mutta ei hätää! Dynaamisen sisällön pystyy tekemään myös saavutettavasti.</p>
+
+        <p>Yksi tärkeimmistä asioista sivun sisällön muuttuessa on fokuksen siirto: siten voi pakottaa ruudunlukuohjelman käyttäjän fokuksen haluttuun kohtaan. Tätä tosin ei tulisi käyttää kuin niissä tilanteissa, jolloin käyttäjä osaa odottaa sijaintinsa muuttuvan, siis jonkin käyttäjän oman toiminnon jälkeen. Jos sivulla on vaihtuva mainos, sinne ei missään tapauksessa tulisi pakottaa fokusta. Sitten taas, jos lomakkeen lähettäminen aiheuttaakin esimerkiksi virheilmoituksen, on hyvä siirtää käyttäjän fokus ko. ilmoituksen kohdalle, jottei se jää huomaamatta. Tai jos linkkiä painamalla sisältö muuttuu, voi fokuksen siirtää muuttuvan sisällön alkuun.</p>
+
+        
+
         <h3>ARIA-atribuutit</h3>
 
         <p> ARIA (Accessible Rich Internet application) on valikoima atribuutteja, joiden avulla verkkosivusta saa tehtyä saavutettavamman apuvälineille. Uusimmat selaimet ja ruudunlukuohjelmat tukevat ARIA-atribuutteja, mutta vanhat välttämättä eivät. ARIA:n avulla saa tehtyä paljon nppäriä asioita ja niiden avulla pystyy mm. korjaamaan ruudunlukuohjelman käyttäjän näkökulmasta sivun semantiikkaa oikeaksi. Silti ensisijaisesti tulisi noudattaa perus HTML-semantiikkaa, jotta vanhemmatkin ruudunlukijat ymmärtävät sisällön oikein.</p>
@@ -47,6 +55,9 @@
         <h3>2. Valintalista</h3>
 
         <p><a href="https://jsfiddle.net/zbnzhod6/">Listassa</a> on vaihtoehtoja, joista voi valita vain yhden. Valitettavasti ruudunlukuohjelman käyttäjälle valinnat ovat vain yksittäisiä sanoja ilman mitään tietoa siitä, että niitä voisi edes painaa, saati sitten mitään tietoa, mikä vaihtoehdoista on valittuna. Käytä apuna tarvittavia ARIA roleja ja propertyja, jotta tästä saa saavutettavan.</p>
+
+        <h3>3. Verkkokaupan dropdown-menu</h3>
+        <p>Edellisen luennon tehtävistä tuttu <a href="">Verkokauppa</a> on saanut navigaatioonsa "dropdown"-valikon. Paha vaan, valikko tulee näkyviin pelkästään hiiren käyttäjille. :( Lisää sivulle JavaScript-koodia, jolla valikon saa näkyviin myös näppäimistöllä navigoidessa.</p>
 
         <h2>Linkkejä</h2>
 

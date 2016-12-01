@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Fokuksen siirto -esimerkki</title>
+    </head>
+    
+    <body>
+        <style>
+        .hidden {
+            display: none;
+        }
+        </style>
+
+        <h2>Otsikko</h2>
+
+        <a href="#" onclick="nayta(0);">Ensimmäinen sisältö</a>
+        <a href="#" onclick="nayta(1);">Toinen sisältö</a>
+        <a href="#" onclick="nayta(2);">Kolmas sisältö</a>
+        
+        <article id="eka" class="hidden">
+            <h3>Ensimmäisen sisällön otsikko</h3>
+            <p>Tässä on ensimmäinen vaihtuvista tekstisisällöistä.</p>
+        </article>
+        
+        <article id="toka" class="hidden">
+            <h3>Toisen sisällön otsikko</h3>
+            <p>Tässä on toinen vaihtuva tekstisisältö.</p>
+        </article>
+        
+        <article class="hidden">
+            <h3>Kolmas otsikko</h3>
+            <p>Tämä onkin jo kolmas vaihtuvista tekstisisällöistä.</p>
+        </article>
+        
+        <script type="text/javascript">
+        function nayta(index) {
+            var sisallot = document.getElementsByTagName("article");
+            
+            for (var i = 0; i < sisallot.lenth; i++) {
+                if (i == idex) {
+                    sisallot[i].class('');
+                    sisallot[i].focus();
+                } else {
+                    sisallot[i].class(hidden);
+                }
+            }
+        }
+        </script>
+        
+    </body>
+</html>
+    
