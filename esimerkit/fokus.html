@@ -19,14 +19,14 @@
             <p>Painoit nappia!</p>
         </div>
         
-        <button onclick="nayta();">Paina minua</button>
+        <button onclick="nayta(); return false;">Paina minua</button>
 
         <script type="text/javascript">
         function nayta() {
             var ilmoitus = $("#ilmoitus");
-            ilmoitus
-                .removeClass("hidden")
-                .focus();
+            ilmoitus.removeClass("hidden");
+            setTimeout(function(){ ilmoitus.focus(); }, 1000);
+            //    .focus();
             //var ilmoitus = document.getElementById("ilmoitus");
             //ilmoitus.className = "";
             //setTimer(ilmoitus.focus, 50);
