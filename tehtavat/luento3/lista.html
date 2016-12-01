@@ -6,7 +6,15 @@
     <body>
 
 <style>
-ul.menu {
+li:before {
+     content: "□ "; 
+} 
+
+li.checked:before {
+  content: "☑ ";
+}
+
+/*ul.menu {
     list-style:none;
     background-color: #ccc;
     width: 8.5em;
@@ -26,7 +34,7 @@ li.checked {
     background-repeat: no-repeat;
     background-position: 5px 10px;
 }
-</style>
+*/</style>
 
 <h2>Valitse yksi vaihtoehto</h2>
 
@@ -39,7 +47,6 @@ li.checked {
 
 <script type="text/javascript">
 function valitse(index) {
-    console.log("vaihtoehto " + index);
     var vaihtoehdot = document.getElementsByTagName("li");
 
     for (var i = 0; i < vaihtoehdot.length; i++) {

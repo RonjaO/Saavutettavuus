@@ -44,7 +44,9 @@
 
         <p><a href="https://jsfiddle.net/sLaw9f7a/">Viestilista</a> näyttää viestin sisällön, kun klikkaa sitä listasta. Valitettavasti viestilistan elementit ovat vain li-elementtejä, joten ruudunlukuohjelmalle niiden klikattavuus ei ole itsestäänselvää. Tee ARIA:n avulla li-elementeistä ruudunlukuohjelman näkökulmasta painikkeita.</p>
 
+        <h3>2. Valintalista</h3>
 
+        <p><a href="https://jsfiddle.net/zbnzhod6/">Listassa</a> on vaihtoehtoja, joista voi valita vain yhden. Valitettavasti ruudunlukuohjelman käyttäjälle valinnat ovat vain yksittäisiä sanoja ilman mitään tietoa siitä, että niitä voisi edes painaa, saati sitten mitään tietoa, mikä vaihtoehdoista on valittuna. Käytä apuna tarvittavia ARIA roleja ja propertyja, jotta tästä saa saavutettavan.</p>
 
         <h2>Linkkejä</h2>
 
