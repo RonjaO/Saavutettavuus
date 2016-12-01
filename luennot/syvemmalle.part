@@ -8,6 +8,8 @@
 
         <p>Yksi tärkeimmistä asioista sivun sisällön muuttuessa on fokuksen siirto: siten voi pakottaa ruudunlukuohjelman käyttäjän fokuksen haluttuun kohtaan. Tätä tosin ei tulisi käyttää kuin niissä tilanteissa, jolloin käyttäjä osaa odottaa sijaintinsa muuttuvan, siis jonkin käyttäjän oman toiminnon jälkeen. Jos sivulla on vaihtuva mainos, sinne ei missään tapauksessa tulisi pakottaa fokusta. Sitten taas, jos lomakkeen lähettäminen aiheuttaakin esimerkiksi virheilmoituksen, on hyvä siirtää käyttäjän fokus ko. ilmoituksen kohdalle, jottei se jää huomaamatta. Tai jos linkkiä painamalla sisältö muuttuu, voi fokuksen siirtää muuttuvan sisällön alkuun.</p>
 
+        <script async src="//jsfiddle.net/6wfwb4sd/8/embed/"></script>
+
         <p>JavaScriptin avulla voi lisätä toiminnallisuutta vähän mihin tahansa elementteihin, niihinkin, jotka eivät sitä semanttisesti sisällä. Tässä kohtaa suureksi avuksi tulee ARIA, josta lisää seuraavassa.</p>
 
         <h3>ARIA-attribuutit</h3>
@@ -22,7 +24,9 @@
 
         <table>
             <tr><th>attributti</th> <th>Arvo</th> <th>Kuvaus</th> <th>Esimerkki</th></tr>
-
+            <tr>
+                <td>aria-checked</td> <td>true/false</td> <td>Kertoo, onko elementin tila "valittu" vai ei</td> <td>Lomakkeissa, joissa käytetään valittavina elementteinä jotain muuta kuin input-elementtiä relevantilla typellä</td>
+            </tr>
             <tr>
                 <td>aria-describedby</td> <td>id</td> <td>Lisäkuvaus elementin toiminnalle</td> <td>Lomakekentässä "tooltip", salasanan muoto</td> 
             </tr>
@@ -44,7 +48,45 @@
             </tr>
         </table>
 
-        <p></p>
+        <h4>Tarpeellisia role-attribuutin arvoja</h4>
+
+        <p>Kaikki seuraavat ovat muotoa role="arvo".</p>
+
+        <table aria-label="Aria rolet">
+            <tr><th>Arvo</th> <th>Kuvaus</th></tr>
+            <tr>
+                <td>alert</td><td>Ruudulle ilmestyvä ilmoitusteksti, joka halutaan tulevan varmasti luetuksi</td>
+            </tr>
+            <tr>
+                <td>button</td><td>Jos jokin muu kuin varsinainen button-elementti toimii kuin button, tämä role auttaa</td>
+            </tr>
+            <tr>
+                <td>main</td><td>Sivun pääsisältö. Helpottaa ruudunlukuohjelmalla navigointia.</td>
+            </tr>
+            <tr>
+                <td>menubar</td> <td>Kertoo elementin olevan valikko.</td>
+            </tr>
+            <tr>
+                <td>menuitem</td><td>Kertoo, että elementti on valikon kohde.</td>
+            </tr>
+            <tr>
+                <td>presentation</td><td>Ottaa elementiltä sen semantiikan pois. Esim taulukkoa ei lueta enää taulukkona.</td>
+            </tr>
+            <tr>
+                <td>radiobuttongroup</td><td>Elementti on valikoima radiobuttoneita.</td>
+            </tr>
+            <tr>
+                <td<menuitemradio</td><td>Elementti, joka on radiobuttongroup-alueen yksi kohde.</td>
+            </tr>
+            <tr>
+                <td>tabpanel</td><td>Tabien valintapaneeli</td>
+            </tr>
+            <tr>
+                <td>tab</td><td>Tabien valintapaneelin yksi valittava tabi.</td>
+             </tr>
+        </table>
+
+        <p>Erilaisia roleja on vielä ehkä noin 100 lisää.</p>
 
 
         <h2>Tehtävät</h2>

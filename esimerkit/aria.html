@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Aria-esimerkkejä</title>
+    </head>
+    
+    <body>
+        <h2>Esimerkki aria-attribuutin käytöstä</h2>
+        
+        <p id="tiedot">Henkilötiedot</p>
+        <label for="etunimi" id="etunimilabel">Etunimi:</label>
+        <input type="text" id="etunimi" aria-labelledby="tiedot etunimilabel">
+        <label for="sukunimi" id="sukunimilabel">Sukunimi:</label>
+        <input type="text" id="sukunimi" aria-labelledby="tiedot sukunimilabel">
+        <label for="osoite">Osoite:</label>
+        <input type="text" id="osoite">
+        
+        
+        
+        <h2>Esimerkki rolen käytöstä</h2>
+        
+        <p>Tämä p-elementti on vain tekstiä.</p>
+        <p role="button">Tämä p-elementti on painike.</p>
+        
+    </body>
+</html>
