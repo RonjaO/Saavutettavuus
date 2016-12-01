@@ -24,7 +24,8 @@
         function nayta() {
             var ilmoitus = document.getElementById("ilmoitus");
             ilmoitus.className = "";
-            ilmoitus.focus();
+            setTimer(ilmoitus.focus, 50);
+            //ilmoitus.focus();
         }
         </script>
         

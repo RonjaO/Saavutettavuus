@@ -8,20 +8,21 @@
 
         <p>Yksi tärkeimmistä asioista sivun sisällön muuttuessa on fokuksen siirto: siten voi pakottaa ruudunlukuohjelman käyttäjän fokuksen haluttuun kohtaan. Tätä tosin ei tulisi käyttää kuin niissä tilanteissa, jolloin käyttäjä osaa odottaa sijaintinsa muuttuvan, siis jonkin käyttäjän oman toiminnon jälkeen. Jos sivulla on vaihtuva mainos, sinne ei missään tapauksessa tulisi pakottaa fokusta. Sitten taas, jos lomakkeen lähettäminen aiheuttaakin esimerkiksi virheilmoituksen, on hyvä siirtää käyttäjän fokus ko. ilmoituksen kohdalle, jottei se jää huomaamatta. Tai jos linkkiä painamalla sisältö muuttuu, voi fokuksen siirtää muuttuvan sisällön alkuun.</p>
 
-        
+        <p>JavaScriptin avulla voi lisätä toiminnallisuutta vähän mihin tahansa elementteihin, niihinkin, jotka eivät sitä semanttisesti sisällä. Tässä kohtaa suureksi avuksi tulee ARIA, josta lisää seuraavassa.</p>
 
-        <h3>ARIA-atribuutit</h3>
+        <h3>ARIA-attribuutit</h3>
 
-        <p> ARIA (Accessible Rich Internet application) on valikoima atribuutteja, joiden avulla verkkosivusta saa tehtyä saavutettavamman apuvälineille. Uusimmat selaimet ja ruudunlukuohjelmat tukevat ARIA-atribuutteja, mutta vanhat välttämättä eivät. ARIA:n avulla saa tehtyä paljon nppäriä asioita ja niiden avulla pystyy mm. korjaamaan ruudunlukuohjelman käyttäjän näkökulmasta sivun semantiikkaa oikeaksi. Silti ensisijaisesti tulisi noudattaa perus HTML-semantiikkaa, jotta vanhemmatkin ruudunlukijat ymmärtävät sisällön oikein.</p>
+        <p> ARIA (Accessible Rich Internet Application) on valikoima attribuutteja, joiden avulla verkkosivusta saa tehtyä saavutettavamman apuvälineille. Uusimmat selaimet ja ruudunlukuohjelmat tukevat hyvin ARIA-attribuutteja, mutta vanhat välttämättä eivät. ARIA:n avulla saa tehtyä paljon nppäriä asioita ja niiden avulla pystyy mm. korjaamaan ruudunlukuohjelman käyttäjän näkökulmasta sivun semantiikkaa oikeaksi. Silti ensisijaisesti tulisi noudattaa perus HTML-semantiikkaa, jotta vanhemmatkin ruudunlukijat ymmärtävät sisällön oikein.</p>
 
-        <p>ARIA-atribuutin voi lisätä lähes jokaiselle html-elementille. ARIA:an sisältyy <b>role</b>-atribuutti sekä joukko erilaisia <b>aria-*</b> -atribuutteja. Role-atribuutti kertoo nimensä mukaisesti elementin roolin, esimerkiksi "main", "button", "menubar" jne – vaihtoehtoja on toista sataa. Aria-* -atribuuteilla voi taas lisätä elementille vaikka kuvauksen (aria-describedby=id), labelin (aria-label="tekstiä") tai sen voi piilottaa ruudunlukuohjelmalta (aria-hidden=true/false).</p>
+        <p>ARIA-attribuutin voi lisätä lähes jokaiselle html-elementille. ARIA:an sisältyy <b>role</b>-attribuutti sekä joukko erilaisia <b>aria-*</b> -attribuutteja. Role-attribuutti kertoo nimensä mukaisesti elementin roolin, esimerkiksi "main", "button", "menubar" jne – vaihtoehtoja on toista sataa. Aria-* -attribuuteilla voi taas lisätä elementille vaikka kuvauksen (aria-describedby=id), labelin (aria-label="tekstiä") tai sen voi piilottaa ruudunlukuohjelmalta (aria-hidden=true/false).</p>
 
-        <p>Monet ARIA-atribuutit lisäävät saavutettavuutta etenkin dynaamisen sisällön kanssa. Keskitytään toistaiseksi atribuutteihin, joista on apua myös ilman JavaScriptiä ja jatketaan myöhemmin aiheesta lisää.</p>
+        <p>ARIA-attribuutit lisäävät saavutettavuutta etenkin dynaamisen sisällön kanssa – niiden avulla on mahdollista antaa ruudunlukuohjelman käyttäjälle tietoa muuttuneesta sisällöstä heti, kun se muuttuu, sekä muista sovelluksessa tapahtuvista asioista. ARIA:sta on hyötyä myös ilman JavaScriptiä ja dynaamisyyttä.</p>
 
-        <h4>Hyödyllisiä aria-* -atribuutteja</h4>
+        <h4>Hyödyllisiä aria-* -attribuutteja</h4>
 
         <table>
-            <tr><th>Atributti</th> <th>Arvo</th> <th>Kuvaus</th> <th>Esimerkki</th></tr>
+            <tr><th>attributti</th> <th>Arvo</th> <th>Kuvaus</th> <th>Esimerkki</th></tr>
+
             <tr>
                 <td>aria-describedby</td> <td>id</td> <td>Lisäkuvaus elementin toiminnalle</td> <td>Lomakekentässä "tooltip", salasanan muoto</td> 
             </tr>
