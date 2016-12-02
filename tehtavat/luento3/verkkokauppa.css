@@ -58,7 +58,7 @@ table {
 .lastenmenu,
 .lemmikkimenu {
   position: relative;
-  display: inline-block;
+/*  display: inline-block;*/
 }
 
 .kotimenu-sisalto, 
