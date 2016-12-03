@@ -3,14 +3,15 @@ body {
 }
 
 .linkkilista {
-  list-style-type: none;
   float: right;
   border-left: 2px solid #666;
+  display: block;
 }
 
 .linkkilista a {
   text-decoration: none;
   color: black;
+  display: block;
 }
 
 .linkkilista a:hover, .linkkilista a:focus {
@@ -66,10 +67,14 @@ table {
 .lastenmenu-sisalto,
 .lemmikkimenu-sisalto {
   display: none;
+  z-index: 1;
   position: absolute;
   min-width: 160px;
   box-shadow:  0px 8px 16px 0px rgba(0,0,0,0.2);
+  border: 1px solid #CCC;
   background-color: #FFFFE0;
+  padding: 3px 6px;
+  right: 0;
 }
 
 .kotimenu:hover .kotimenu-sisalto,
