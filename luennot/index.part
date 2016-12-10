@@ -23,7 +23,7 @@
                 <td>2.12.</td> <td><a href="syvemmalle.html">3. Syvemmälle saavutettavuuteen:</a></td> <td>Saavutettava dynaaminen sisältö ja mitä kaikkea html:llä ja css:llä saakaan aikaan</td>
             </tr>
             <tr>
-                <td>9.12.</td> <td>4. Sisällön saavutettavuus:</td> <td>Jos raamit on kunnossa, mikä merkitys sisällöllä</td>
+                <td>9.12.</td> <td><a href="sisalto.html">4. Sisällön saavutettavuus:</a></td> <td>Jos raamit on kunnossa, mikä merkitys sisällöllä</td>
             </tr>
             <tr>
                 <td>13.12.</td> <td>5. Käytettävyys mukaan:</td>                 <td>Miten saavutettavasta sivustosta saa vielä käytettävänkin</td>
@@ -35,7 +35,8 @@
 
             <h3>Ohjeita, sääntöjä ja vinkkejä saavutettavuuteen:</h3>
             <ul>
-                <li><a href="http://www.w3.org/TR/WCAG20/">WCAG 2.0 -ohjeistus</a></li>
+                <li><a href="http://www.w3.org/TR/WCAG20/">WCAG 2.0 -ohjeistus (englanniksi)</a></li>
+            <li><a href="https://www.w3.org/Translations/WCAG20-fi/">Verkkosisällön saavutettavuusohjeet (WCAG) 2.0 (suomeksi)</a></li>
                 <li><a href="http://data.consilium.europa.eu/doc/document/ST-9389-2016-REV-1/en/pdf">EU:n verkon saavutettavuusdirektiivi (pdf)</a></li>
                 <li><a href="http://www.nkl.fi/fi/etusivu/esteettomyysratkaisut/verkko/tarkistuslista-verkkosivujen-tekijoille">Näkövammaisten liiton laatima saavutettavien verkkosivujen tarkistuslista</a></li>
                 <li><a href="http://www.powermapper.com/tests/screen-readers/elements/">HTML elements - Screen reader compatibility</a></li>
