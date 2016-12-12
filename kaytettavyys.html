@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fi">
+    <head>
+        <meta charset="UTF-8">
+        <title>Verkkopalveluiden saavutettavuus -pop up -kurssi</title>
+        <link rel="stylesheet" href="css/tyylit.css" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> 
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    </head>
+    
+    <body>
+        <a href="#main" class="skiplink">Hyppää pääsisältöön</a>
+        <nav>
+            <ul>
+                <li><a href="index.html">Etusivu</a></li>
+                <li><a href="johdanto.html">Luento 1</a></li>
+                <li><a href="perushtml.html">Luento 2</a></li>
+                <li><a href="syvemmalle.html">Luento 3</a></li>
+                <li><a href="sisalto.html">Luento 4</a></li>
+                <li>Luento 5</li>
+            </ul>
+        </nav>
+
+        <h1 id="main">Luento 5: Käytettävyys mukaan</h1>
+
+        <h2>Materiaali</h2>
+
+        <p>Verkkopalveluita on tärkeää testata erilaisten käyttäjien kanssa. Vaikka tekninen saavutettavuus olisi toteutettu erinomaisesti, ei se vielä takaa, että käyttäjien olisi helppoa käyttää sitä. Koska ns. normaalikäyttäjän ja apuvälinekäyttäjän – oli apuvälineenä sitten kytkinohjain, suurennus- tai ruudunlukuohjelma – käyttötavat eroavat toisistaan, on tärkeää, että testausta tehdään erilaisten käyttäjäryhmien kanssa. On hyvin mahdollista, että jokin palvelu, joka on näkevän käyttäjän mielestä helppokäyttöinen, ei olekaan sitä sokealle käyttäjälle, vaikka sitä voisikin teknisesti käyttää.</p>
+
+        <p>En tiedä mitenkään erityisesti käyttöliittymistä ja niiden suunnittelusta, joten tätä luentoa ei kannata pitää varsinaisena ohjenuorana käyttöliittymäsuunnittelussa. Jaan kuitenkin muutamia huomioita helppokäyttöisyyteen.</p>
+
+        <h3>Tärkein asia ensin</h3>
+
+        <p>Kun sivulla, sen lähdekoodissa ja kaikessa tekstissä on tärkein asia ensin, sivun käytettävyys paranee huomattavasti. Lähdekoodin järjestyksellä on merkitystä apuvälinekäyttäjille (ruudunlukuohjelmat ja kytkinohjaus). Kun sivun tärkein asia on ensimmäisenä ja tekstikappaleen tärkerin asia on ensimmäisenä, on sivun sisällön lukeminen ja tiedonhaku helpompaa aivan kaikille.</p>
+
+        <p>Ruudunlukuohjelmat lukevat verkkosivua lineaarisesti lähdekoodin mukaan. Siksi lähdekoodin järjestyksellä on väliä. Kun koko sivun tekemisessä noudattaa periaatetta "tärkein asia ensin", on yksi etappi kaikille helppokäyttöisen sivun luomisessa saavutettu. Navigaatiossa tärkein linkki ensin, lähdekoodissa tärkein sisältö ensin (tai vähintäänkin helposti, esimerkiksi hyppylinkin avulla), tekstissä tärkeimmät asiat ensin etc.</p>
+
+        <h3>Riittävän vähän sisältöä kerralla</h3>
+
+        <p>Kuten <a href="sisalto.html">saavutettavaa sisältöä käsitellessä</a> jo todettiin, selkeällä sivulla ei ole liikaa sisältöä. Silloin sivun sisältö, sen tärkeimmät asiat yms, on helpompi hahmottaa. Tämäkin pätee jokseenkin kaikkeen: ei liian pitkiä alt-tekstejä, sopivan lyhyitä tekstikappaleita (joissa tärkein asia ensin), napakoita auttavia tekstejä (kuten mitä lomakekenttään tulee syöttää) etc.</p>
+
+        <p>Ruudunlukuohjelmalla on mahdollista siirtyä tekstikappaleesta toiseen lukematta kappaletta loppuun asti. Siksi on hyvä pitää tekstikappaleet sopivan lyhyinä ja kertoa tärkein asia ensin; ruudunlukuohjelman käyttäjä pystyy "silmäilemään" tekstiä ja halutessaan paneutumaan johonkin tekstikappaleeseen tarkemmin, jos kokee siinä olevan tarvitsemaansa tietoa.</p>
+
+        <h3>Kuvaavat otsikot, kuvaavat linkkitekstit</h3>
+
+        <p>Ei ihan riitä, että sivulla on otsikkotaso (h-tägi) oikealla tasolla, jos otsikon teksti ei ole riittävän kuvaava sen jälkeen tulevasta sisällöstä. Otsikoittain liikkuminen on ruudunlukuohjelman käyttäjälle helppo tapa navigoida sivulla, joten ei-kuvaavien otsikoiden takia voi jäädä helposti löytymättä tarpeellisia asioita. Otsikosta tulisi siis aina ilmetä kuvaavasti, minkä asian otsikko se kulloinkin on – helpottaahan se jälleen kaikkia, jos vain otsikoita silmäilemällä osaa jo päätellä, missä kohtaa kannattaa lukea tarkemmin.</p>
+
+        <p>Koska sivun title on asia, jonka ruudunlukuohjelma lukee verkkosivusta ensimmäisenä, olisi senkin syytä olla kuvaava. Sellaiset titlet, joissa on lueteltuna vain hakukonetta varten lista sanoja, ei ole kovin hyödyllinen käyttäjälle.</p>
+
+        <p>Ruudunlukuohjelmilla voi niin ikään liikkua linkistä toiseen tai nähdä listan yhden sivun sisältämistä kaikista linkeistä ja valita siitä haluamansa. Jos linkkitekstinä on vain "Lue lisää" ja tällaisia linkkejä on viisi peräkkäin, ei teksti ole kovin kuvaava. Näkevä käyttäjä saa helposti silmäiltyä linkin ympäriltä, mihin linkki viittaa, mutta ruudunlukuohjelman käyttäjältä se vaatii enemmän kuin nopeaa silmäilyä. Toisaalta kuvaava linkkiteksti "Lue lisää parhaista glögeistä" on käytettävä myös näkevälle käyttäjälle.</p>
+
+
+        <h2>Tehtävät</h2>
+
+        <p>Palauta tämä viimeinen tehtävä sekä kaikki aiemmat kurssin tehtävät (luennoilta <a href="johdanto.html">1,</a> <a href="perushtml.html">2</a> ja <a href="syvemmalle.html">3</a>) sähköpostilla  osoitteeseen <a href="mailto:ronja.oja@helsinki.fi">ronja.oja@helsinki.fi</a> viimeistään 18.12.</p>
+
+        <h3>Suunnittele saavutettava verkkopalvelu</h3>
+
+        <p>Suunnittele verkkopalvelu, jossa on otettu huomioon monenlaiset käyttäjäryhmät. Mieti, mitkä ovat palvelun tärkeimmät osa-alueet ja kerro, kuinka toteuttaa ne kaikille saavutettavasti. Mainitse myös asiat, joiden saavutettava toteutus vaikuttaa haastavalta. Käytä apunasi kaikkea, mitä tämän kurssin aikana on mainittu. Tarvittaessa etsi lisätietoa googlesta.</p>
+
+        <p>Verkkopalvelun suunnitelma voi sisältää koodatun demon, pieniä pätkiä koodia tai olla pelkkä suunnitteludokumentti siitä, kuinka saavutettavan palvelun toteutus onnistuisi ja mitä kaikkea tulee ottaa huomioon. Mainitse vähintään kolmen "näkymän" asioita.</p>
+
+        <h4>Esimerkkejä verkkopalveluista</h4>
+
+        <p>Valitse jokin näistä tai keksi jokin oma verkkopalvelu.</p>
+
+        <ol>
+            <li>Blogiportaali: Sivusto, jossa voi lukea ja kirjoittaa blogeja, luoda oman blogin yms.</li>
+            <li>Lippukauppa: Palvelu tapahtumien selaamiseen, niiden tietojen lukemiseen sekä erityisesti lippujen hankintaan.</li>
+            <li>Suoratoistopalvelu: Verkkopalvelu, jossa voi suoratoistona katsella/kuunnella sisältöä, selata ja etsiä sitä sekä lisätä itselleen listaan myöhempää käyttöä varten.</li>
+            <li>Terveydenhuoltopalvelu: Verkossa toimiva palvelu omien terveystietojen tarkasteluun, ajan varaamiseen lääkärille sekä terveysneuvontaan chatin kautta.</li>
+            <li>Opiskelualusta: Paikka, jossa voi olla kurssimateriaaleja, keskustelua kaikkien kurssilaisten kesken tai pienryhmissä sekä mahdollisuus tehtävien palauttamiseen sähköisesti.</li>
+        </ol>
+
+        <h2>Linkkejä</h2>
+
+        <ul>
+            <li><a href="https://www.sitepoint.com/screen-reader-usability-tips/"Seven Screen Reader Usability Tips</a></li>
+        </ul>
