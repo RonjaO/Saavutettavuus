@@ -26,7 +26,7 @@
                 <td>9.12.</td> <td><a href="sisalto.html">4. Sisällön saavutettavuus:</a></td> <td>Jos raamit on kunnossa, mikä merkitys sisällöllä</td>
             </tr>
             <tr>
-                <td>13.12.</td> <td>5. Käytettävyys mukaan:</td>                 <td>Miten saavutettavasta sivustosta saa vielä käytettävänkin</td>
+                <td>13.12.</td> <td><a href="kaytettavyys.html">5. Käytettävyys mukaan:</a></td>                 <td>Miten saavutettavasta sivustosta saa vielä käytettävänkin</td>
             </tr>
         </table>
 
@@ -41,6 +41,7 @@
                 <li><a href="http://www.nkl.fi/fi/etusivu/esteettomyysratkaisut/verkko/tarkistuslista-verkkosivujen-tekijoille">Näkövammaisten liiton laatima saavutettavien verkkosivujen tarkistuslista</a></li>
                 <li><a href="http://www.powermapper.com/tests/screen-readers/elements/">HTML elements - Screen reader compatibility</a></li>
                 <li><a href="https://material.google.com/usability/accessibility.html#">Accessibility - Usability - Material Design Guidelines</a></li>
+                <li><a href="http://www.powermapper.com/tests/screen-readers/elements/">HTML Elements - Screen reader compatibility</a></li>
             </ul>
         
             <h3>Juttuja ja videoita saavutettavuudesta</h3>
