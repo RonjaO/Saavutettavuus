@@ -10,8 +10,8 @@ $(document).ready(function(){
 });
 
 function showDropdown(index) {
-    $(".alimenu-sisalto").addClass("hidden");
-    $(".alimenu-sisalto:eq(" + index + ")").removeClass("hidden");
+    $(".alimenu-sisalto").removeClass("show");
+    $(".alimenu-sisalto:eq(" + index + ")").addClass("show");
 }
 
 
