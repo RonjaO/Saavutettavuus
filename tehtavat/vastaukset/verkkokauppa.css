@@ -54,19 +54,11 @@ table {
   margin: 20px;
 }
 
-.kotimenu,
-.matkailumenu,
-.harrastusmenu,
-.lastenmenu,
-.lemmikkimenu {
+.alimenu {
   position: relative;
 }
 
-.kotimenu-sisalto, 
-.matkailumenu-sisalto,
-.harrastusmenu-sisalto,
-.lastenmenu-sisalto,
-.lemmikkimenu-sisalto {
+.alimenu-sisalto {
   display: none;
   z-index: 1;
   position: absolute;
@@ -85,10 +77,6 @@ table {
 .lastenmenu:hover .lastenmenu-sisalto,
 .lemmikkimenu:hover .lemmikkimenu-sisalto {
   display: block;
-}
-
-.kotimenu:hover .kotimenulinkki {
-  background-color: #DDEEEE;
 }
 
 .show {
