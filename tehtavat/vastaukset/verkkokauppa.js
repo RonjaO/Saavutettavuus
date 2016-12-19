@@ -14,6 +14,11 @@ function showDropdown(index) {
     $(".alimenu-sisalto:eq(" + index + ")").addClass("show");
 }
 
+window.onclick = function(event) {
+    if (!event.target.matches('.alimenulinkki')) {
+       $(".alimenu-sisalto").removeClass("show");
+    }
+}
 
 
 
