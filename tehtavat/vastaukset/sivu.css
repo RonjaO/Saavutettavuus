@@ -1,0 +1,58 @@
+body {
+  margin: 0 30px;
+}
+
+.linkkilista {
+  list-style-type: none;
+  float: right;
+  border-left: 2px solid #666;
+}
+
+.linkkilista a {
+  text-decoration: none;
+}
+
+header {
+  margin-bottom:-30px;
+  margin-top:-30px;
+}
+
+header img {
+  width: 200px;
+  display: block;
+  margin: auto;
+}
+
+h2 {
+  font-size:1em;
+  font-weight: normal;
+}
+
+.pankit {
+  margin: 5px auto;
+  display: table;
+}
+.pankit img {
+  width: 40px;
+}
+
+.pankit li {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.maksutavat {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.alet {
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+table {
+  border: none;
+  background-color: #EEDDEE;
+  margin: 20px;
+}

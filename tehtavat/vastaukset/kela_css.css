@@ -1,0 +1,328 @@
+.navi
+{
+    font-family: Helvetica,Arial;
+    font-size: 15px;
+    color: #002277;
+    padding: 0.2em 0 0.2em 0;
+    text-decoration: none;
+}
+
+.navi_valittu
+{
+    font-family: Helvetica,Arial;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 0.2em 0 0.2em 0;
+    color: #FDB913;
+    background-color: #FFFFFF;
+}
+
+.info 
+{
+    font-family: Helvetica, Arial;
+    font-size: 13px;
+    color: #000000;
+    padding-left: 10pt;
+}
+
+.info a
+{
+    font-family: Helvetica, Arial;
+    font-size: 13px;
+    color: #004894;
+    line-height: 130%;
+}
+
+.ylainfo
+{
+	border-top: 1px solid #FFC600;
+	border-bottom: 1px solid #FFC600;
+	border-left: 1px solid #FFC600;
+	border-right: 1px solid #FFC600;
+	padding: 3px 6px 3px 6px;
+	background-color: #FFE7B0;
+	font-family: Arial;
+	font-size: 15px;
+	color: #000000
+}
+
+.alaotsikko
+{
+	border-bottom: 1px solid #FFC600;
+	padding: 3px 6px 3px 6px;
+	font-family: Arial;
+	font-size: 15px;
+	font-weight: 700;
+	color: #000000
+}
+
+.ylaotsikko 
+{
+    font-family: Helvetica, Arial;
+    font-size: 19px;
+    color: black;
+}
+
+.ylalinkki 
+{
+    font-family: Helvetica,Arial;
+    font-size: 15px;
+    color: #004894;
+}
+
+.viestilinkki {
+    font-family: Helvetica,Arial;
+    font-size: 45px;
+    font-weight:bold;
+    color: #004894;
+}
+
+.logo
+{
+    margin-left: 12pt;
+}
+
+.otsikko
+{ 
+    font-family: Helvetica, Arial; 
+    font-size: 20px; 
+    font-weight: 700;
+    color: #000000;
+}
+
+.sisalto 
+{
+	padding: 3px 6px 3px 6px;
+    font-family: Helvetica, Arial;
+    font-size: 15px;
+    color: #000000;
+    line-height: 130%;
+}
+
+.taulukon_otsikko_omat_tiedot {
+	padding: 3px 6px 3px 6px;
+	background-color: #FFE7B0;
+	font-family: Arial;
+	font-size: 15px;
+	font-weight: 700;
+	color: #000000;
+	vertical-align: middle;
+}
+
+/* go_etusivu käyttää seuraavia */
+.taulukon_otsikko_go {
+	border-top: 1px solid #BFBFBF;
+	border-bottom: 1px solid #BFBFBF;
+	padding: 3px 6px 3px 6px;
+	background-color: #FFE7B0;
+	font-family: Arial;
+	font-size: 15px;
+	font-weight: 700;
+	color: #000000;
+	vertical-align: middle;
+}
+
+.sarakkeen_otsikko_go {
+	border-bottom: 1px solid #BFBFBF;
+	padding: 3px 6px 3px 6px;
+	font-family: Arial;
+	font-size: 15px;
+	font-weight: 700;
+	color: #000000;
+	line-height: 130%;
+	vertical-align: top;
+}
+
+.valiotsikko_go {
+	border-bottom: 1px solid #BFBFBF;
+    padding: 3px 6px 3px 6px;
+    font-family: Helvetica, Arial;
+    font-size: 15px;
+    color: #000000;
+    font-weight: bold;
+	line-height: 130%;
+	vertical-align: top;
+}
+
+.tiedot_verotukseen_tausta {
+	background-color: #FFE7B0;
+	padding: 3px 0px 3px 0px;
+	font-family: Arial;
+	font-size: 15px;
+	font-weight: 700;
+	color: #000000;
+	vertical-align: middle;
+}
+
+.sisalto_go {
+    padding: 3px 6px 3px 6px;
+    font-family: Helvetica, Arial;
+    font-size: 15px;
+    color: #000000;
+	line-height: 130%;
+	vertical-align: top;
+}
+
+.sisalto_go2 {
+	border-bottom: 1px solid #BFBFBF;
+    padding: 3px 6px 3px 6px;
+    font-family: Helvetica, Arial;
+    font-size: 15px;
+    color: #000000;
+    font-style: italic;
+	line-height: 130%;
+	vertical-align: top;
+}
+
+.sisalto_go5 {
+    padding: 6px 6px 6px 0px;
+    font-family: Helvetica, Arial;
+    font-size: 15px;
+    color: #000000;
+	line-height: 130%;
+	vertical-align: top;
+}
+
+.sisalto_go4 {
+    padding: 3px 6px 3px 0px;
+    font-family: Helvetica, Arial;
+    font-size: 15px;
+    color: #000000;
+    font-style: italic;
+	line-height: 130%;
+	vertical-align: top;
+}
+
+.sisalto_tositteet {
+	padding-bottom: 15px;
+
+}
+
+/*eTT lausunnot käyttää tätä */
+.sisaltoTT 
+{
+    font-family: Courier New;
+    font-size: 12px;
+    color: #000000;
+    line-height: 130%;
+}
+
+.sisalto a 
+{
+    font-family: Helvetica, Arial;
+    font-size: 15px;
+    color: #004894;
+    line-height: 130%;
+}
+
+/*ePE käyttää tätä*/
+.sisennys 
+{
+    font-family: Helvetica, Arial;
+    font-size: 15px;
+    color: #000000;
+    line-height: 130%;
+    padding-left: 7px;
+}
+
+/*ePE käyttää tätä*/
+.tasaus_vasen_ylos 
+{
+    font-family: Helvetica, Arial;
+    font-size: 15px;
+    color: #000000;
+    line-height: 130%;
+    text-align: left;
+    vertical-align: top;
+}
+
+.nimi		
+{
+    font-family: Helvetica, Arial;
+    font-size: 15px;
+    color: #999999;
+    font-weight: 700;
+}
+
+.asiaotsikko 
+{
+	padding: 3px 6px 3px 6px;
+    font-family: Helvetica, Arial;
+    font-size: 15px;
+    font-weight: 700;
+    color: #000000;
+}
+
+.paiva
+{
+    font-family:Helvetica,Arial;
+    font-size:13px;
+    color: #7F7F7F;
+}
+
+hr.viiva 
+{
+    color: #BFBFBF;
+}
+
+pre
+{
+    font-size:12px;
+}
+
+.Message {
+	color: red;
+	font-weight: bold;
+	font-family: Helvetica, Arial, sans-serif
+}
+
+.Huomautus
+{
+	color: green;
+	font-weight: bold;
+	font-family: Helvetica, Arial, sans-serif
+}
+
+hr.katkoviiva 
+{
+	border: 0px;
+	height: 1px;
+    color: #BFBFBF;
+    border-top: 1px dashed #BFBFBF;
+    margin-bottom:20px;
+}
+
+input.nappi
+{
+	background-color: #1473E3;
+	background-image: url('../kuvat/liuku3.gif');
+	background-repeat: repeat-x;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	color: white;
+	font-weight: bold;
+	border-top: 1px solid white;
+	border-left: 1px solid white;
+	border-bottom: 1px solid #505070;
+	border-right: 1px solid #505070;
+}
+
+input.nappi:active
+{
+	background-color: #1473E3;
+	background-image: url('../kuvat/liuku3.gif');
+	background-repeat: repeat-x;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	color: white;
+	font-weight: bold;
+	border-bottom: 1px solid white;
+	border-right: 1px solid white;
+	border-top: 1px solid #505070;
+	border-left: 1px solid #505070;
+}
+

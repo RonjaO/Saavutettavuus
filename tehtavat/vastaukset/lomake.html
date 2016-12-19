@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>Ilmoittautumislomake</title>
+    </head>
+    
+    <body>
+        <h1>Ilmoittaudu mukaan illalliselle!</h1>
+        
+        <p>Täytä lomake huolella.</p>
+        
+        <form>
+            <label for="etunimi">Etunimi: </label>
+            <input type="text" id="etunimi" /><br>
+            <label for="sukunimi">Sukunimi: </label>
+            <input type="text" id="sukunimi" /><br>
+            <label for="email">Sähköposti: </label>
+            <input type="email" id="email" /><br>
+            <label for="puhelin">Puhelinnumero: </label>
+            <input type="text" id="puhelin" /><br>
+            Valitse ruoka:<br>
+            <input type="radio" name="ruoka" value="kala" id="kala" /> <label for="kala"> Kala</label><br>
+            <input type="radio" name="ruoka" value="liha" id="liha" /><label for="liha"> Liha</label><br>
+            <input type="radio" name="ruoka" value="kasvis" id="kasvis" /><label for="kasvis"> Kasvis</label><br>
+            <label for="allergiat">Ruoka-aineallergiat:</label><br>
+            <textarea name="allergiat" id="allergiat"></textarea>
+            <input type="submit" value="Lähetä ilmoittautuminen" />
+        </form>
+        
+    </body>    
+</html>

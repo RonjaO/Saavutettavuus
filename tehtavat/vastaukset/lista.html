@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Radiobuttonit</title>
+    </head>
+    <body>
+
+<style>
+
+ul.menu {
+    list-style: none;
+}
+li:before {
+  content: "□ ";
+  display: inline-block;
+  width: 20px;
+}
+li.checked {
+  background-image: url("https://ronjao.github.io/Saavutettavuus/kuvat/dot.png");
+  background-repeat: no-repeat;
+  background-position: 5px 8px;
+}
+</style>
+
+
+<h2>Valitse yksi vaihtoehto</h2>
+
+<ul class="menu">
+    <li id="kala" class="menu-item checked" onclick="valitse(0);">Kala</li>
+    <li id="liha" class="menu-item" onclick="valitse(1);">Liha</li>
+    <li id="kasvis" class="menu-item" onclick="valitse(2);">Kasvis</li>
+</ul>
+
+
+<script type="text/javascript">
+function valitse(index) {
+    var vaihtoehdot = document.getElementsByTagName("li");
+
+    for (var i = 0; i < vaihtoehdot.length; i++) {
+        if (index == i) {
+            vaihtoehdot[i].className = 'menu-item checked';
+        } else {
+            vaihtoehdot[i].className = 'menu-item';
+        }
+    }
+}
+</script>
+
+</body>
+</html>
