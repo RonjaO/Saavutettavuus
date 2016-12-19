@@ -10,7 +10,7 @@
 ul.menu {
     list-style: none;
 }
-li:before {
+/* li:before {
   content: "□ ";
   display: inline-block;
   width: 20px;
@@ -19,10 +19,15 @@ li.checked {
   background-image: url("https://ronjao.github.io/Saavutettavuus/kuvat/dot.png");
   background-repeat: no-repeat;
   background-position: 5px 8px;
+} */
+
+[role='radio']:before {
+  content: "□ ";
+  display: inline-block;
+  width: 20px;
 }
 
-/* aria-checked-attribuuttia voi käyttää myös selectorina */
-[role='radio'][aria-checked='true']:before{
+[role='radio'][aria-checked='true'] {
   background-image: url("https://ronjao.github.io/Saavutettavuus/kuvat/dot.png");
   background-repeat: no-repeat;
   background-position: 5px 8px;
@@ -33,9 +38,9 @@ li.checked {
 <h2>Valitse yksi vaihtoehto</h2>
 
 <ul class="menu" role="radiogroup">
-    <li id="kala" class="menu-item checked" onclick="valitse(0);" role="radio" aria-checked="true">Kala</li>
-    <li id="liha" class="menu-item" onclick="valitse(1);" role="radio" aria-checked="false">Liha</li>
-    <li id="kasvis" class="menu-item" onclick="valitse(2);" role="radio" aria-checked="false">Kasvis</li>
+    <li id="kala" onclick="valitse(0);" role="radio" aria-checked="true">Kala</li>
+    <li id="liha" onclick="valitse(1);" role="radio" aria-checked="false">Liha</li>
+    <li id="kasvis" onclick="valitse(2);" role="radio" aria-checked="false">Kasvis</li>
 </ul>
 
 
@@ -45,10 +50,8 @@ function valitse(index) {
 
     for (var i = 0; i < vaihtoehdot.length; i++) {
         if (index == i) {
-            vaihtoehdot[i].className = 'menu-item checked';
             vaihtoehdot[i].setAttribute('aria-checked', true);
         } else {
-            vaihtoehdot[i].className = 'menu-item';
             vaihtoehdot[i].setAttribute('aria-checked', false);
         }
     }
