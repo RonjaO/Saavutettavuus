@@ -71,14 +71,6 @@ table {
   margin-right: 160px;
 }
 
-/* .kotimenu:hover .kotimenu-sisalto,
-.matkailumenu:hover .matkailumenu-sisalto,
-.harrastusmenu:hover .harrastusmenu.sisalto,
-.lastenmenu:hover .lastenmenu-sisalto,
-.lemmikkimenu:hover .lemmikkimenu-sisalto {
-  display: block;
-} */
-
 .show {
   display: block;
 }

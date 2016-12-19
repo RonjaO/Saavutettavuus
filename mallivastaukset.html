@@ -47,21 +47,25 @@
 
         <h3>1. Viestilista</h3>
 
+        <p>Viestilistassa tärkein asia oli lisätä viestin näyttävälle "painikkeelle" role="button". Sen lisäksi, jotta fokus oikeasti siirtyy ilmestyvään tekstiin, viestien div-elementtiin tarvitaan tabindex="-1".</p>
 
+        <script async src="//jsfiddle.net/3zwynq6c/embed/"></script>
 
         <h3>2. Valintalista</h3>
 
-        <p>Koska tehtävän "valintalista" muistuttaa toiminnaltaan radiobuttoneita, tärkeintä tässä tehtävässä oli lisätä ul-elementille role="radiogroup" ja jokaiselle li-elementille role="radio". Sen lisäksi li-elementeillä pitää olla aria-checked-attribuutti, joka kertoo ruudunlukuohjelmalle, mikä vaihtoehdoista on valittuna.</p>
+        <p>Koska tehtävän "valintalista" muistuttaa toiminnaltaan radiobuttoneita, tärkeintä tässä tehtävässä oli lisätä ul-elementille role="radiogroup" ja jokaiselle li-elementille role="radio". Sen lisäksi li-elementeillä pitää olla aria-checked-attribuutti, joka kertoo ruudunlukuohjelmalle, mikä vaihtoehdoista on valittuna. (Vieläkään en onnistunut saamaan JavaScriptiä toimimaan, jos laitoin se JavaScript-paneeliin, joten se on HTML:n mukana.)</p>
 
+        <script async src="//jsfiddle.net/qut2yvhb/embed/html,css,result/"></script>
 
+        <p>Tässä vielä malliksi, kuinka saavutettavuuden takia välttämättömiä aria-attribuutteja voi käyttää myös CSS-selectoreina, jolloin lista-elementeillä ei tarvitsekaan olla class-attribuuttia eikä javascriptissä tarvitse muuttaa kuin aria-checked-attribuutin arvoa.</p>
 
-        <p>tässä vielä malliksi, kuinka saavutettavuuden takia välttämättömiä aria-attribuutteja voi käyttää myös CSS-selectoreina, jolloin lista-elementeillä ei tarvitsekaan olla class-attribuuttia eikä javascriptissä tarvitse muuttaa kuin aria-checked-attribuutin arvoa.</p>
-
-        <script async src="//jsfiddle.net/6t6g2408/embed/html,css,result/"></script>
+        <script async src="//jsfiddle.net/6t6g2408/4/embed/"></script>
 
         <h3>3. Verkkokauppa</h3>
 
+        <p>Verkkokaupan navigaatiossa olevat "alimenut" (dropdown menu) saa tehtyä saavutettavasti JavaScriptin kanssa. Kun alimenun sisältävää valikkokohdetta klikkaa, lisätään alimenun sisältö -diville luokka "show". Näin alimenut saa näkyviin näppäimistörajapinnankin kautta.</p>
 
+    <script async src="//jsfiddle.net/d1s2oboa/embed/"></script>
 
 
     </body>
