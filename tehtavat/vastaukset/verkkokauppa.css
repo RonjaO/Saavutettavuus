@@ -59,7 +59,7 @@ table {
 }
 
 .alimenu-sisalto {
-  display: none;
+  display: block;;
   z-index: 1;
   position: absolute;
   min-width: 160px;
@@ -81,4 +81,8 @@ table {
 
 .show {
   display: block;
+}
+
+.hidden {
+  display: none;
 }
