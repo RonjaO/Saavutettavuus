@@ -4,14 +4,21 @@
 
         <h3>1. Ilmoittautumislomake</h3>
 
-        
+        <p>Tässä tehtävässä tärkeintä oli laittaa sivun otsikko h1-tagien sisään sekä lisätä jokaiselle lomake-elementille (paitsi submit-napille) elementtiin viittaava label. Tehtävän alkuperäisessä koodissa ollut placeholder on myös poistettu ja korvattu labeleilla.</p>
+
+        <script async src="//jsfiddle.net/jL8r6rs0/1/embed/html,result/"></script>
 
         <h3>2. Verkkokauppa</h3>
 
+        <p>Verkkokaupassa oli tärkeää laittaa kuviin alt-tekstit. Yläpalkissa olevan kaupan logon paras alt-teksti on "verkkokauppa" ja kuva on vielä hyvä laittaa h1-tagien sisään. Muutenkin sivun otsikkotasoille oli syytä tehdä jotain.</p>
 
+        <script async src="//jsfiddle.net/8yj2smq1/embed/html,css,result/"></script>
 
         <h3>3. Kelan asiointipalvelu</h3>
 
+        <p>Tämä oli typerä tehtävä. Urhoollisesti monet sitä kuitenkin tekivät. Tehtävän laittamisen jälkeen löysin ARIA:sta täydellisen ratkaisun tähän taulukolla tehdyn layoutin ongelmaan: role="presentation". Eli, vaikkei ARIA vielä ollutkaan 2. luennon asioita, en edes yrittänyt tehdä mallivastausta ilman tätä rolea. Käytännössä siis koodiin ei tarvitse tehdä mitään muuta kuin lisätä jokaiseen sivun table-elementtiin role="presentation", niin ruudunlukuohjelma ei lue taulukoita enää taulukoina, mutta asettelu on ennallaan. Sen lisäksi toki muutamasta h-elementistä on apua.</p>
+
+        <script async src="//jsfiddle.net/t5u995kk/embed/html,css,result/"></script>
 
         <h2>Luento 3</h2>
 

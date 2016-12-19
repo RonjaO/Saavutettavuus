@@ -25,10 +25,10 @@ li.checked {
 
 <h2>Valitse yksi vaihtoehto</h2>
 
-<ul class="menu">
-    <li id="kala" class="menu-item checked" onclick="valitse(0);">Kala</li>
-    <li id="liha" class="menu-item" onclick="valitse(1);">Liha</li>
-    <li id="kasvis" class="menu-item" onclick="valitse(2);">Kasvis</li>
+<ul class="menu" role="radiogroup">
+    <li id="kala" class="menu-item checked" onclick="valitse(0);" role="radio" aria-checked="true">Kala</li>
+    <li id="liha" class="menu-item" onclick="valitse(1);" role="radio" aria-checked="false">Liha</li>
+    <li id="kasvis" class="menu-item" onclick="valitse(2);" role="radio" aria-checked="false">Kasvis</li>
 </ul>
 
 
@@ -39,8 +39,10 @@ function valitse(index) {
     for (var i = 0; i < vaihtoehdot.length; i++) {
         if (index == i) {
             vaihtoehdot[i].className = 'menu-item checked';
+            vaihtoehdot[i].setAttribute('aria-checked', true);
         } else {
             vaihtoehdot[i].className = 'menu-item';
+            vaihtoehdot[i].setAttribute('aria-checked', false);
         }
     }
 }
