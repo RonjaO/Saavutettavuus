@@ -1,17 +1,17 @@
 $(document).ready(function(){
 
-    $(".alimenu").each(function(index) {
+    $(".alimenulinkki").each(function(index) {
         $(this).attr("id", index);
         $(this).click(function(eventInformation) {
-            showChildDropdown(index);
+            showDropdown(index);
             eventInformation.preventDefault();
         });
     });
 });
 
-function showChildDropdown(index) {
-    $("div.alimenu > div").addClass("hidden");
-    $("div#" + index + " > div").removeClass("hidden");
+function showDropdown(index) {
+    $(".alimenu-sisalto").addClass("hidden");
+    $(".alimenu-sisalto:eq(" + index + ")").removeClass("hidden");
 }
 
 
