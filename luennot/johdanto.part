@@ -8,9 +8,15 @@
             <button id="painike" onclick>Laita näkyväksi</button> 
         </div>
 
-        <h2>Tehtävät</h2>
+        <h2>Materiaali</h2>
 
-        <p>Vastaa tehtäviin sähköpostilla osoitteeseen <a href="mailto:ronja.oja@helsinki.fi">ronja.oja@helsinki.fi</a>.</p>
+        <p>Saavutettavan verkkosisällön tavoitteena on, että kuka tahansa pystyy käyttämään verkossa tarjottavia palveluita erilaisista rajoitteista riippumatta. Tämä kurssi johdattelee saavutettavuuden perusasioihin. Huomio on erityisesti teknisissä vaatimuksissa.</p>
+
+        <h3>Erilaisia käyttäjäryhmiä, erilaisia tarpeita</h3>
+
+        <p>WHO:n arvion mukaan maailman <a href="http://www.who.int/disabilities/world_report/2011/report/en/">väestöstä noin 15% on vammaisia</a>. 
+
+        <h2>Tehtävät</h2>
 
         <h3>1. Kokeile ruudunlukuohjelman käyttöä</h3>
         <p>Ilmaisia ruudunlukuohjelmia löytyy lähes joka alustalle. Kaikkien toimintaperiaate on sama, eikä käyttöä ole vaikea oppia. Kokeile ruudunlukuohjelman käyttöä ja tutki vähintään tätä verkkosivua valitsemallasi ohjelmalla. Kerro palautuksessa, mitä löytyi.

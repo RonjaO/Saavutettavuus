@@ -2,7 +2,6 @@
 $(document).ready(function() {
     $("#painike").bind("click", function(event) {
         $("body").append("<p>Lisätty teksti</p>");
-        alert("fooo");
         var div = document.getElementById("salaisuus");
         div.style.removeProperty("position")
         div.style.removeProperty("width");
