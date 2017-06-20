@@ -31,8 +31,6 @@ function closeAll(menubar) {
     
     while (element) {
         var menuItem = element.firstElementChild;
-        console.log('MenuItem: ' + menuItem.innerHTML);
-        closePopupMenu(menuItem);
             console.log('Lisätään eventlistenerit');
             menuItem.addEventListener('keydown', function(event) {
                 handleKeydown(event, menuItem);
@@ -41,6 +39,7 @@ function closeAll(menubar) {
             menuItem.addEventListener('mouseover', openPopupMenu(menuItem));
             menuItem.addEventListener('mouseout', closePopupMenu(menuItem));
             
+            closePopupMenu(menuItem);
         
         element = element.nextElementSibling;
     }
@@ -73,6 +72,7 @@ function handleKeydown(event, menuItem) {
         case keyCode.ENTER:
         case keyCode.DOWN:
             if (menuItem.getAttribute('aria-expanded' === 'false')) {
+                console.log('painettu avaavaa näppäintä');
                 openPopupMenu(menuItem);
             } else {
                 closePopupMenu(menuItem);
