@@ -32,7 +32,7 @@ function closeAll(menubar) {
         console.log('MenuItem: ' + menuItem.innerHTML);
         closePopupMenu(menuItem);
         
-        element = nextElementSibling;
+        element = element.nextElementSibling;
     }
 }
 
