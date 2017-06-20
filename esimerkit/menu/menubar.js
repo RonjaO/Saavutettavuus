@@ -1,8 +1,8 @@
-var keyCode = Object.freeze([
+var keyCode = Object.freeze({
     'SPACE': 32,
     'ENTER': 13,
     'DOWN': 40
-]);
+});
 
 function setEventListeners(menubar) {
     var element = menubar.firstElementChild;
