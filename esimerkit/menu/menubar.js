@@ -6,11 +6,11 @@ var keyCode = Object.freeze({
 
 function setEventListeners(menubar) {
     var element = menubar.firstElementChild;
-    console.log(event.tagName);
     
     while (element) {
         console.log('Eventlistener...');
         var menuItem = element.firstElementChild;
+        console.log('Menuitemi: ' + menuItem.innetHTML);
         
         if (menuItem.tagName === 'span') {
             menuItem.addEventListener('keyDown', handleKeyDown(event, menuItem));
