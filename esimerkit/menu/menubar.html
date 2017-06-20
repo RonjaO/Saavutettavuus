@@ -3,10 +3,11 @@
     <head>
         <title>Valikko-esimerkki</title>
         <link rel="stylesheet" href="/menuitem.css" type="text/css" />
+        <script type="text/javascript" src="/menubar.js"></script>
     </head>
     <body>
         
-        <ul role="menubar">
+        <ul role="menubar" id="menubar">
             <li role="presentation">
                 <span role="menuitem" tabindex="0" aria-haspopup="true" aria-expanded="false">Kieli</a>
                 <ul role="menu">
@@ -45,7 +46,10 @@
             </li>
         </ul>
         
-        <script type="text/javascript" src=""></script>
-        
+        <script type="text/javascript">
+            var menubar = Document.getElementById("menubar");
+            closeAll(menubar);
+            setEventListeners(menubar);
+        </script>
     </body>
 </html>
