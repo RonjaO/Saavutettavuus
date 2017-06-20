@@ -56,7 +56,7 @@ function closePopupMenu(menuItem) {
 }
 
 function openPopupMenu(menuItem) {
-    console.log('Avataan ' + menuitem);
+    console.log('Avataan ' + menuItem);
     var popupMenu = menuItem.nextElementSibling;
     
     popupMenu.style.display = 'block';
