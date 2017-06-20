@@ -74,9 +74,9 @@ function handleKeydown(event, menuItem) {
         case keyCode.ENTER:
         case keyCode.DOWN:
 
-            console.log('Painettiin jotain');
-            console.log('Aria-expanded: ' + (typeof menuItem.getAttribute('aria-expanded')));
-            if (menuItem.getAttribute('aria-expanded') === false) {
+            var expanded = menuItem.getAttribute('aria-expanded');
+            console.log("expanded", expanded, typeof expanded);
+            if (menuItem.getAttribute('aria-expanded') === 'false') {
                 console.log('painettu avaavaa näppäintä');
                 openPopupMenu(menuItem);
             } else {
