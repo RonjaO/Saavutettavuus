@@ -70,7 +70,7 @@ function handleKeydown(event, menuItem) {
     switch(event.keyCode) {
         case keyCode.SPACE:
         case keyCode.ENTER:
-        case keyCode.DOWN:
+        // case keyCode.DOWN:
 
             console.log('Painettiin jotain');
             if (menuItem.getAttribute('aria-expanded' === 'false')) {
