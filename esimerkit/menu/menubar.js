@@ -34,10 +34,11 @@ function closeAll(menubar) {
     while (element) {
         var menuItem = element.firstElementChild;
             console.log('Lisätään eventlistenerit');
-            menuItem.addEventListener('keydown', function(event) {
-                console.log(menuItem.innerHTML);
-                handleKeydown(event, menuItem);
-            });
+            menuItem.addEventListener('keydown', handleKeydown);
+            // menuItem.addEventListener('keydown', function(event) {
+            //     console.log(menuItem.innerHTML);
+            //     handleKeydown(event, menuItem);
+            // });
             menuItem.addEventListener('click', handleClick(event, menuItem));
             menuItem.addEventListener('mouseover', openPopupMenu(menuItem));
             menuItem.addEventListener('mouseout', closePopupMenu(menuItem));
@@ -68,18 +69,18 @@ function openPopupMenu(menuItem) {
     menuItem.setAttribute('aria-expanded', 'true');
 }
 
-function handleKeydown(event, menuItem) {
+function handleKeydown(event) {
     console.log(event.keyCode + 'menuitem ' +menuItem);
     switch(event.keyCode) {
         case keyCode.SPACE:
         case keyCode.ENTER:
         case keyCode.DOWN:
 
-            var expanded = menuItem.getAttribute('aria-expanded');
+            var expanded = event.target.getAttribute('aria-expanded');
             console.log("expanded", expanded, typeof expanded);
             if (expanded === 'false') {
                 console.log('painettu avaavaa näppäintä');
-                openPopupMenu(menuItem);
+                openPopupMenu(event.target));
             } else {
                 console.log('suljetaan');
                 closePopupMenu(menuItem);
