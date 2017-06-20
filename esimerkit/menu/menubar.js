@@ -34,7 +34,9 @@ function closeAll(menubar) {
         console.log('MenuItem: ' + menuItem.innerHTML);
         closePopupMenu(menuItem);
             console.log('Lisätään eventlistenerit');
-            menuItem.addEventListener('keydown', handleKeydown(event, menuItem));
+            menuItem.addEventListener('keydown', function(event) {
+                handleKeydown(event, menuItem);
+            });
             menuItem.addEventListener('click', handleClick(event, menuItem));
             menuItem.addEventListener('mouseover', openPopupMenu(menuItem));
             menuItem.addEventListener('mouseout', closePopupMenu(menuItem));
