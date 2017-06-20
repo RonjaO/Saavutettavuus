@@ -76,7 +76,7 @@ function handleKeydown(event, menuItem) {
 
             var expanded = menuItem.getAttribute('aria-expanded');
             console.log("expanded", expanded, typeof expanded);
-            if (menuItem.getAttribute('aria-expanded') === 'false') {
+            if (expanded === 'false') {
                 console.log('painettu avaavaa näppäintä');
                 openPopupMenu(menuItem);
             } else {
