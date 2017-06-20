@@ -33,6 +33,14 @@ function closeAll(menubar) {
         var menuItem = element.firstElementChild;
         console.log('MenuItem: ' + menuItem.innerHTML);
         closePopupMenu(menuItem);
+        if (menuItem.tagName === 'span') {
+            console.log('Lisätään eventlistenerit');
+            menuItem.addEventListener('keyDown', handleKeyDown(event, menuItem));
+            menuItem.addEventListener('click', handleClick(event, menuItem));
+            menuItem.addEventListener('mouseover', openPopupMenu(menuItem));
+            menuItem.addEventListener('mouseout', closePopupMenu(menuItem));
+            
+        }
         
         element = element.nextElementSibling;
     }
