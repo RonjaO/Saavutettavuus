@@ -78,6 +78,7 @@ function handleKeydown(event, menuItem) {
                 console.log('painettu avaavaa näppäintä');
                 openPopupMenu(menuItem);
             } else {
+                console.log('suljetaan');
                 closePopupMenu(menuItem);
             }
             break;
