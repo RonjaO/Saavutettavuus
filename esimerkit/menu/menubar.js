@@ -80,7 +80,7 @@ function handleKeydown(event) {
             console.log("expanded", expanded, typeof expanded);
             if (expanded === 'false') {
                 console.log('painettu avaavaa näppäintä');
-                openPopupMenu(event.target));
+                openPopupMenu(event.target);
             } else {
                 console.log('suljetaan');
                 closePopupMenu(menuItem);
