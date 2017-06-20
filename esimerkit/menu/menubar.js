@@ -7,25 +7,6 @@ var keyCode = Object.freeze({
 });
 
 function setEventListeners(menubar) {
-    // var element = menubar.firstElementChild;
-    //
-    // while (element) {
-    //     var menuItem = element.firstElementChild;
-    //
-    //     console.log('Menuitemi: ' + menuItem.innetHTML);
-    //
-    //     if (menuItem.tagName === 'span') {
-    //         menuItem.addEventListener('keyDown', handleKeyDown(event, menuItem));
-    //         menuItem.addEventListener('click', handleClick(event, menuItem));
-    //         menuItem.addEventListener('mouseover', openPopupMenu(menuItem));
-    //         menuItem.addEventListener('mouseout', closePopupMenu(menuItem));
-    //
-    //     }
-    //
-    //     element = element.firstElementChild;
-    // }
-    //
-    // console.log('All event listeners has set');
 }
 
 function closeAll(menubar) {
@@ -33,15 +14,18 @@ function closeAll(menubar) {
     
     while (element) {
         var menuItem = element.firstElementChild;
-            console.log('Lisätään eventlistenerit');
             menuItem.addEventListener('keydown', handleKeydown);
             // menuItem.addEventListener('keydown', function(event) {
             //     console.log(menuItem.innerHTML);
             //     handleKeydown(event, menuItem);
             // });
-            menuItem.addEventListener('click', handleClick(event, menuItem));
-            menuItem.addEventListener('mouseover', openPopupMenu(menuItem));
-            menuItem.addEventListener('mouseout', closePopupMenu(menuItem));
+            menuItem.addEventListener('click', handleClick);
+            menuItem.addEventListener('mouseover', function() {
+                openPopupMenu(event.target);
+            });
+            menuItem.addEventListener('mouseout', function() {
+                closePopupMenu(event.target);
+            });
             
             closePopupMenu(menuItem);
         
@@ -94,7 +78,8 @@ function handleKeydown(event) {
     
 }
 
-function handleClick(event, menuItem) {
+function handleClick(event) {
+    var menuItem = event.target;
     if (menuItem.getAttribute('aria-expanded' === 'false')) {
         openPopupMenu(menuItem);
     } else {
