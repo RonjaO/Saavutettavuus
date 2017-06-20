@@ -5,25 +5,25 @@ var keyCode = Object.freeze({
 });
 
 function setEventListeners(menubar) {
-    var element = menubar.firstElementChild;
-    
-    while (element) {
-        var menuItem = element.firstElementChild;
-
-        console.log('Menuitemi: ' + menuItem.innetHTML);
-        
-        if (menuItem.tagName === 'span') {
-            menuItem.addEventListener('keyDown', handleKeyDown(event, menuItem));
-            menuItem.addEventListener('click', handleClick(event, menuItem));
-            menuItem.addEventListener('mouseover', openPopupMenu(menuItem));
-            menuItem.addEventListener('mouseout', closePopupMenu(menuItem));
-            
-        }
-        
-        element = element.firstElementChild;
-    }
-    
-    console.log('All event listeners has set');
+    // var element = menubar.firstElementChild;
+    //
+    // while (element) {
+    //     var menuItem = element.firstElementChild;
+    //
+    //     console.log('Menuitemi: ' + menuItem.innetHTML);
+    //
+    //     if (menuItem.tagName === 'span') {
+    //         menuItem.addEventListener('keyDown', handleKeyDown(event, menuItem));
+    //         menuItem.addEventListener('click', handleClick(event, menuItem));
+    //         menuItem.addEventListener('mouseover', openPopupMenu(menuItem));
+    //         menuItem.addEventListener('mouseout', closePopupMenu(menuItem));
+    //
+    //     }
+    //
+    //     element = element.firstElementChild;
+    // }
+    //
+    // console.log('All event listeners has set');
 }
 
 function closeAll(menubar) {
