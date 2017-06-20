@@ -8,8 +8,8 @@ function setEventListeners(menubar) {
     var element = menubar.firstElementChild;
     
     while (element) {
-        console.log('Eventlistener...');
         var menuItem = element.firstElementChild;
+
         console.log('Menuitemi: ' + menuItem.innetHTML);
         
         if (menuItem.tagName === 'span') {
