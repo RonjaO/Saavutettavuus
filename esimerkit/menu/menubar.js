@@ -70,17 +70,18 @@ function openPopupMenu(menuItem) {
 }
 
 function handleKeydown(event) {
-    console.log(event.keyCode, event.target);
+    var menuItem = event.target;
+    console.log(event.keyCode, this);
     switch(event.keyCode) {
         case keyCode.SPACE:
         case keyCode.ENTER:
         case keyCode.DOWN:
 
-            var expanded = event.target.getAttribute('aria-expanded');
+            var expanded = menuItem.getAttribute('aria-expanded');
             console.log("expanded", expanded, typeof expanded);
             if (expanded === 'false') {
                 console.log('painettu avaavaa näppäintä');
-                openPopupMenu(event.target);
+                openPopupMenu(menuItem);
             } else {
                 console.log('suljetaan');
                 closePopupMenu(menuItem);
