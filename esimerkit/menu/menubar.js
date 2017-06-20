@@ -67,7 +67,7 @@ function openPopupMenu(menuItem) {
 }
 
 function handleKeydown(event, menuItem) {
-    console.log(event.keyCode);
+    console.log(event.keyCode + 'menuitem ' +menuItem);
     switch(event.keyCode) {
         case keyCode.SPACE:
         case keyCode.ENTER:
