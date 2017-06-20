@@ -56,6 +56,7 @@ function closePopupMenu(menuItem) {
 }
 
 function openPopupMenu(menuItem) {
+    console.log('Avataan ' + menuitem);
     var popupMenu = menuItem.nextElementSibling;
     
     popupMenu.style.display = 'block';
@@ -66,7 +67,7 @@ function openPopupMenu(menuItem) {
 }
 
 function handleKeydown(event, menuItem) {
-    console.log(event);
+    console.log(event.keyCode);
     switch(event.keyCode) {
         case keyCode.SPACE:
         case keyCode.ENTER:
