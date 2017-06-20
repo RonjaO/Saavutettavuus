@@ -55,7 +55,7 @@ function closePopupMenu(menuItem) {
     
 }
 
-function openPopUpMenu(menuItem) {
+function openPopupMenu(menuItem) {
     var popupMenu = menuItem.nextElementSibling;
     
     popupMenu.style.display = 'block';
