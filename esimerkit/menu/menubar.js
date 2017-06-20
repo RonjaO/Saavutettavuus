@@ -6,6 +6,7 @@ var keyCode = Object.freeze({
 
 function setEventListeners(menubar) {
     var element = menubar.firstElementChild;
+    console.log(event.tagName);
     
     while (element) {
         console.log('Eventlistener...');
