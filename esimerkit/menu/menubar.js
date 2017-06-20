@@ -60,7 +60,6 @@ function openPopupMenu(menuItem) {
     
     popupMenu.style.display = 'block';
     popupMenu.style.position = 'absolute';
-    popupMenu.style.top = (rect.height - 1) + 'px';
     popupMenu.style.zIndex = 100;
     
     menuItem.setAttribute('aria-expanded', 'true');
