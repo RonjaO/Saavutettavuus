@@ -35,7 +35,7 @@ function closeAll(menubar) {
         var menuItem = element.firstElementChild;
             console.log('Lisätään eventlistenerit');
             menuItem.addEventListener('keydown', function(event) {
-                console.log(menuItem);
+                console.log(menuItem.innerHTML);
                 handleKeydown(event, menuItem);
             });
             menuItem.addEventListener('click', handleClick(event, menuItem));
