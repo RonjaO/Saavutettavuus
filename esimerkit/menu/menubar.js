@@ -29,6 +29,7 @@ function closeAll(menubar) {
     
     while (element) {
         var menuItem = element.firstElementChild;
+        console.log('Menuitem: ' + menuItem.innerHTML);
         closePopupMenu(menuItem);
         
         element = nextElementSibling;
