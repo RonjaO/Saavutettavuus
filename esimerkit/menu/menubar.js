@@ -3,6 +3,7 @@
 var keyCode = Object.freeze({
     'SPACE': 32,
     'ENTER': 13,
+    'VO': 18,
     'DOWN': 40
 });
 
@@ -53,11 +54,12 @@ function openPopupMenu(menuItem) {
 
 function handleKeydown(event) {
     var menuItem = event.target;
-    console.log(event.keyCode, this.domNode);
+    console.log(event.keyCode);
     switch(event.keyCode) {
         case keyCode.SPACE:
         case keyCode.ENTER:
         case keyCode.DOWN:
+        case keyCode.VO:
 
             var expanded = menuItem.getAttribute('aria-expanded');
             console.log("expanded", expanded, typeof expanded);
