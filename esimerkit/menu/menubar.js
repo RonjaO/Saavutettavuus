@@ -77,9 +77,9 @@ function handleKeydown(event) {
 }
 
 function handleClick(event) {
-    console.log('Klikattiin!');
+    console.log('Klikattiin!', event.target);
     var menuItem = event.target;
-    if (menuItem.getAttribute('aria-expanded' === 'false')) {
+    if (menuItem.getAttribute('aria-expanded'() === 'false') {
         openPopupMenu(menuItem);
     } else {
         closePopupMenu(menuItem);
