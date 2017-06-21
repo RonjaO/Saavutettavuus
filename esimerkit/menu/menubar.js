@@ -6,31 +6,29 @@ var keyCode = Object.freeze({
     'DOWN': 40
 });
 
-function setEventListeners(menubar) {
-}
 
-function closeAll(menubar) {
+function setup(menubar) {
     var element = menubar.firstElementChild;
     
     while (element) {
         var menuItem = element.firstElementChild;
-            menuItem.addEventListener('keydown', handleKeydown);
-            // menuItem.addEventListener('keydown', function(event) {
-            //     console.log(menuItem.innerHTML);
-            //     handleKeydown(event, menuItem);
-            // });
-            menuItem.addEventListener('click', handleClick);
-            menuItem.addEventListener('mouseover', function() {
-                openPopupMenu(event.target);
-            });
-            menuItem.addEventListener('mouseout', function() {
-                closePopupMenu(event.target);
-            });
             
-            closePopupMenu(menuItem);
+        addEventListeners(menuItem);
+        closePopupMenu(menuItem);
         
         element = element.nextElementSibling;
     }
+}
+
+function setEventListeners(menuItem) {
+    menuItem.addEventListener('keydown', handleKeydown);
+    menuItem.addEventListener('click', handleClick);
+    menuItem.addEventListener('mouseover', function() {
+        openPopupMenu(event.target);
+    });
+    menuItem.addEventListener('mouseout', function() {
+        closePopupMenu(event.target);
+    });
 }
 
 function closePopupMenu(menuItem) {
