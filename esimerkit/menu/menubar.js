@@ -3,7 +3,6 @@
 var keyCode = Object.freeze({
     'SPACE': 32,
     'ENTER': 13,
-    'VO': 18,
     'DOWN': 40
 });
 
@@ -59,7 +58,6 @@ function handleKeydown(event) {
         case keyCode.SPACE:
         case keyCode.ENTER:
         case keyCode.DOWN:
-        case keyCode.VO:
 
             var expanded = menuItem.getAttribute('aria-expanded');
             console.log("expanded", expanded, typeof expanded);
