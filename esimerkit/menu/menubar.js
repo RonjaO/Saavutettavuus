@@ -13,7 +13,7 @@ function setup(menubar) {
     while (element) {
         var menuItem = element.firstElementChild;
             
-        addEventListeners(menuItem);
+        setEventListeners(menuItem);
         closePopupMenu(menuItem);
         
         element = element.nextElementSibling;
