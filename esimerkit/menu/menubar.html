@@ -6,45 +6,46 @@
         <script type="text/javascript" src="menubar.js"></script>
     </head>
     <body>
-        
-        <ul role="menubar" id="menubar">
-            <li role="presentation">
-                <span role="menuitem" tabindex="0" aria-haspopup="true" aria-expanded="false">Kieli</span>
-                <ul role="menu">
-                    <li role="presentation">
-                        <a href="#" role="menuitem" tabindex="-1">Suomi</a>
-                    </li>
-                    <li role="presentation">
-                        <a href="#" role="menuitem" tabindex="-1">Svenska</a>
-                    </li>
-                    <li>
-                        <a href="#" role="menuitem" tabindex="-1">English</a>
-                    </li>
-                </ul>
-            </li>
-            <li role="presentation">
-                <span role="menuitem" tabindex="-1" aria-haspopup="true" aria-expanded="false">Asiakastili</span>
-                <ul role="menu">
-                    <li role="presentation">
-                        <a href="#" role="menuitem" tabindex="-1">Kirjaudu sisään</a>
-                    </li>
-                    <li role="presentation">
-                        <a href="#" role="menuitem" tabindex="-1">Rekisteröidy</a>
-                    </li>
-                </ul>
-            </li>
-            <li role="presentation">
-                <span role="menuitem" tabindex="-1" aria-haspopup="true" aria-expanded="false">Ostoskori</span>
-                <ul role="menu">
-                    <li role="presentation">
-                        <a href="#" role="menuitem" tabindex="-1">Näytä ostoskori</a>
-                    </li>
-                    <li role="presentation">
-                        <a href="#" role="menuitem" tabindex="-1">Kassalle</a>
-                    </li>
-                </ul>
-            </li>
-        </ul>
+        <nav>
+            <ul id="menubar">
+                <li role="presentation">
+                    <span role="button" tabindex="0" aria-haspopup="true" aria-expanded="false">Kieli</span>
+                    <ul>
+                        <li role="presentation">
+                            <a href="#" tabindex="-1">Suomi</a>
+                        </li>
+                        <li role="presentation">
+                            <a href="#" tabindex="-1">Svenska</a>
+                        </li>
+                        <li role="presentation">
+                            <a href="#" tabindex="-1">English</a>
+                        </li>
+                    </ul>
+                </li>
+                <li role="presentation">
+                    <span role="button" tabindex="-1" aria-haspopup="true" aria-expanded="false">Asiakastili</span>
+                    <ul>
+                        <li role="presentation">
+                            <a href="#" tabindex="-1">Kirjaudu sisään</a>
+                        </li>
+                        <li role="presentation">
+                            <a href="#" tabindex="-1">Rekisteröidy</a>
+                        </li>
+                    </ul>
+                </li>
+                <li role="presentation">
+                    <span role="button" tabindex="-1" aria-haspopup="true" aria-expanded="false">Ostoskori</span>
+                    <ul>
+                        <li role="presentation">
+                            <a href="#" tabindex="-1">Näytä ostoskori</a>
+                        </li>
+                        <li role="presentation">
+                            <a href="#" tabindex="-1">Kassalle</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
         
         <script type="text/javascript">
             var menubar = document.getElementById("menubar");
