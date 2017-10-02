@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html lang="fi">
     <head>
-        <title role="alert" aria-live="assertive">Title-esimerkki</title>
+        <title role="alert" aria-live="assertive" tabindex="-1">Title-esimerkki</title>
     </head>
     <body>
         <button onclick="vaihto();">Vaihda Title</button>
@@ -10,6 +10,7 @@
             function vaihto() {
                 console.log(document.title);
                 document.title = "Uusi title!";
+                document.title.focus();
             }
         </script>
     </body>
